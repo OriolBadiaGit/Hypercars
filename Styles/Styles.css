@@ -1,0 +1,438 @@
+/*Global*/
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+
+
+/*Header*/
+header {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.ContainerMenuToggle {
+    visibility: hidden;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.ContainerContentBody1 {
+    position: absolute;
+    bottom: 45%;
+    margin-left: 3%;
+}
+
+.ContainerContentBody2 {
+    position: absolute;
+}
+
+#NavContainer {
+    font-family: "Iceberg", serif;
+    width: 40%;
+    display: flex;
+    /* position: fixed; */
+    justify-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1%;
+    color: white;
+    clip-path: polygon(5% 15%,
+            95% 15%,
+            100% 50%,
+            95% 85%,
+            5% 85%,
+            0% 50%);
+}
+
+.MenuItem {
+    transition: 0.3s;
+    list-style: none;
+    margin: 0%;
+    padding: 1%;
+}
+
+.MenuItem:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#SubMenuMarques {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0% 3% 0%;
+    gap: 5%;
+    left: 37.3%;
+    top: 7.1%;
+    width: 10%;
+    color: white;
+    text-align: center;
+    height: 17%;
+    clip-path: polygon(50% 0%, 55% 6%, 100% 6%, 100% 100%, 0% 100%, 0% 6%, 45% 6%);
+}
+
+#SubMenuMes {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2% 0% 1% 0%;
+    gap: 5%;
+    left: 60.8%;
+    top: 7.1%;
+    width: 10%;
+    color: white;
+    text-align: center;
+    height: 8%;
+    clip-path: polygon(50% 0%, 55% 6%, 100% 6%, 100% 100%, 0% 100%, 0% 6%, 45% 6%);
+}
+
+
+
+.ItemSubMenuMarques:hover {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/*----------------------------*/
+
+/*ESTILS INDEX.HTML*/
+#video_background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-size: cover;
+    filter: brightness(0.9);
+}
+
+
+.titleHome {
+    color: white;
+    /* background-color: antiquewhite; */
+    font-size: 8rem;
+    font-family: "Quantico", serif;
+    font-weight: 600;
+}
+
+.SubTitleHome {
+    font-family: "Jura", serif;
+    font-weight: lighter;
+    color: white;
+}
+
+.material-symbols-outlined {
+    color: white;
+    margin-top: 2%;
+    font-size: 200%;
+}
+
+footer {
+    font-family: "Quantico", serif;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    bottom: 0%;
+    padding-bottom: 2%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*------------------------------*/
+/* ESTILS MARQUES*/
+
+/*------------------------------*/
+/* ESTILS CONCESIONARIS.HTML*/
+#fullpage {
+    z-index: -1;
+}
+
+.ConcessTitleCars {
+    font-family: "Jura", sans-serif;
+}
+
+.section {
+    text-align: center;
+    justify-content: flex-start;
+    padding-top: 5%;
+    color: white;
+    background-color: black;
+}
+
+.ContainerContentConcess {
+    border: 1px solid white;
+    width: 50%;
+    margin: 10% 0% 0% 25%;
+    display: flex;
+}
+
+.LogoConcess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.UbiConcess {
+    width: 70%;
+    display: flex;
+    font-family: "Jura";
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    /* background-color: aqua; */
+}
+
+.UbiConcess>ul {
+    list-style: none;
+    margin-top: 3.5%;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0);
+    color: white;
+    font-family: jura;
+    border: 3px solid white;
+    min-height: 90%;
+}
+
+.swal2-popup {
+    border: 1px solid white;
+}
+
+.ModalTitle {
+    text-align: center;
+}
+
+.ModalThanksText {
+    text-align: center;
+}
+
+.ContainerForm {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+form {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid white; */
+    text-align: center;
+    width: 90%;
+}
+
+
+.FieldForm:valid {
+    border-color: #28a745;
+    transition: 0.5s;
+}
+
+
+
+.FieldForm:invalid {
+    border-color: #a72828;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.FieldForm:invalid:placeholder-shown {
+    border-bottom: 1px solid white;
+}
+
+.FieldForm:valid:placeholder-shown {
+    border-bottom: 1px solid #28a745;
+}
+
+
+#TelfLabel,
+#MailLabel,
+#QuestionDateLabel {
+    margin-top: 5%;
+}
+
+.FieldForm:focus {
+    outline: none;
+}
+
+form .FieldForm {
+    background-color: transparent;
+    border: none;
+    /* background-color: aqua; */
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid white;
+    transition: 0.5s;
+    color: white;
+    margin: 1% 0% 0% 0%;
+}
+
+.TextCity:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ContainerBtnForm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+
+}
+
+.parsley-custom-error-message {
+    list-style: none;
+    color: #a72828;
+}
+
+.BtnSendForm {
+    border: 1px solid white;
+    width: 30%;
+    padding: 2%;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+}
+
+.ButtonConcess {
+    display: flex;
+    transition: 0.5s;
+    font-family: "Jura";
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.ButtonConcess:hover {
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+    cursor: pointer;
+}
+
+
+hr {
+    border: none;
+    border-left: 2px solid white;
+    height: 160px;
+    width: 1px;
+}
+
+/*-----------------------------*/
+
+/*ESTILS GALERIA.HTML*/
+#BodyGaleria {
+    background-color: black
+}
+
+/*-----------------------------*/
+
+/*ESTILS CONTACTE.HTML*/
+#BodyContacte {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.LabelForm {
+    color: white;
+}
+
+.FormContact {
+    margin-top: 15%;
+}
+
+.ContainerBtnFormContact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.BtnSendFormContact {
+    border: 1px solid white;
+    width: 30%;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+.RadiosSelection {
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.RadiosSelection p {
+    color: white;
+}
+
+.RadioButton {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#TracteLabel{
+margin-top: 40%;
+}
+#PaisosLabel, #RegioLabel{
+    margin-top: 5%;
+}
+
+
+#PaisosField, #IdiomesField {
+    background-color: black;
+    color: white;
+    padding: 1% 0%;
+    border: 0px;
+    overflow: hidden;
+}
+
+select::-webkit-scrollbar {
+    display: none;
+}

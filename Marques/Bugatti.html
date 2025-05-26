@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward_ios" />
+    <!--* FONTS GOOGLE *-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Saira -->
+    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Chakra | Iceberg | Tulpen -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Iceberg&family=Tulpen+One&display=swap"
+        rel="stylesheet">
+
+    <!-- Orbitron -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <!-- Orbitron -->
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+
+    <!-- Quantico -->
+    <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Audiowide -->
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+    <!-- Jura -->
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Tourney -->
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Tourney -->
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap"
+        rel="stylesheet">
+    <!--*------------------------------------------------------------------------*-->
+
+    <!--* FRAMEWORKS Y PLUGINS LINKS *-->
+    <link rel="stylesheet" href="../Frameworks/Bootstrap/css/bootstrap.min.css">
+    <script src="../Frameworks/Bootstrap/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="../Frameworks/Jquery/jquery.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../Plugins/FullPage/node_modules/fullpage.js/dist/fullpage.css" />
+    <link rel="stylesheet" href="../Plugins/IziModal/node_modules/izimodal/css/iziModal.css">
+    <script src="../Plugins/Parsley/parsley.min.js"></script>
+    <script src="../Plugins/Parsley/LanguagesParsley/ca.js"></script>
+    <link rel="stylesheet" href="../Plugins/SweetAlert/sweetalert2.min.css">
+    <link rel="stylesheet" href="../Plugins/Swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../Plugins/Tippy/Animations/scale.css">
+    <!--*------------------------------------------------------------------------*-->
+
+    <link rel="stylesheet" href="StylesMarques/StylesMarques.css">
+    <link rel="stylesheet" href="../Styles/Responsive/ResponsiveMarques.css">
+    <link rel="shortcut icon" href="../ImagesVideos/LOGOWEB.png" type="image/x-icon">
+    <title>Hypercars | Bugatti</title>
+</head>
+
+<body id="BugattiBG">
+    <!--* MENÚ *-->
+    <header>
+        <nav id="NavContainer">
+            <ul class="MenuItem">
+                <li id="IniciMenuItem"><a href="../Index.html">Inici</a></li>
+            </ul>
+            <ul id="active" class="MenuItem">
+                <li id="MenuTriggerMarques" class="MarquesMenuItem">Marques</li>
+            </ul>
+            <img src="../ImagesVideos/LOGOWEB.png" width="35" height="35" alt="">
+            <ul class="MenuItem">
+                <li id="ConcesionariMenuItem"><a href="../Concesionaris.html">Concesionaris</a></li>
+            </ul>
+            <ul class="MenuItem">
+                <li id="MenuTriggerMes" class="MesMenuItem">Més</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="ContainerMenuToggle">
+        <div class="MenuToggle"><i class="fa-solid fa-bars"></i></div>
+    </div>
+    <div id="SubMenuMarques" hidden>
+        <a href="Ferrari.html">
+            <div class="ItemSubMenuMarques">Ferrari</div>
+        </a>
+        <a href="Lamborghini.html">
+            <div class="ItemSubMenuMarques">Lamborghini</div>
+        </a>
+        <a href="Koeniggseg.html">
+            <div class="ItemSubMenuMarques">Koeniggseg</div>
+        </a>
+        <a href="#">
+            <div class="ItemSubMenuMarques">Bugatti</div>
+        </a>
+        <a href="Mclaren.html">
+            <div class="ItemSubMenuMarques">Mclaren</div>
+        </a>
+        <a href="Rimac.html">
+            <div class="ItemSubMenuMarques">Rimac</div>
+        </a>
+    </div>
+    <div id="SubMenuMes" hidden>
+        <a href="../Galeria.html">
+            <div class="ItemSubMenuMarques">Galeria</div>
+        </a>
+        <a href="../Contacte.html">
+            <div class="ItemSubMenuMarques">Contacte</div>
+        </a>
+
+    </div>
+    <!--*-------------------------*-->
+
+    <div id="banner">
+        <img id="imgBannerBugatti" src="../ImagesVideos/bugatti-svgrepo-com.svg" width="599" height="400" alt="">
+        <h1 class="TitleCar">BUGATTI</h1>
+    </div>
+    <div id="ContentCardsModelCars">
+        <div id="ContainerCard">
+            <div class="ImgCar"><img src="../ImagesVideos/ImgCars/Bugatti/Veyron/HOR_XB1_Bugatti_Veyron.png" alt=""
+                    srcset=""></div>
+            <h1 class="NameCar">Veyron</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p>W16 a 72­° tetra Turbo de 7993 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>431 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>2.5s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalVeyron">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalVeyron" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Bugatti Veyron</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Empresa Matriu:</b> Grup Volkswagen</li>
+                    <li><b>Fabricant:</b> Bugatti Automobiles SAS</li>
+                    <li><b>Dissenyador:</b> Jozef Kabaň</li>
+                    <li><b>Fàbriques:</b> France, Molsheim, Alsace</li>
+                    <li><b>Producció:</b> 450 unitats</li>
+                    <li><b>Periode:</b> 2005-2011 (Veyron 16.4) | 2009-2015 (Grand Sport) | 2010–2011 (Super Sport) |
+                        2012–2015 (GS Vitesse)</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Cupé o Roadster, tots dos de 2 portes</li>
+                    <li><b>Configuració:</b> Motor central posterior longitudinal, tracció total amb control
+                        d'estabilitat</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,46m</li>
+                    <li><b>Amplada:</b> 1,99m</li>
+                    <li><b>Altura:</b> 1,20m</li>
+                    <li><b>Distancia entre eixos:</b> 2,70m</li>
+                    <li><b>Via frontal:</b> 1,72m</li>
+                    <li><b>Via posterior:</b> 1.63m</li>
+                    <li><b>Pes:</b> 1888 a 1838 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> W16 a 72­° tetra Turbo de 7993 cm<sup>3</sup></li>
+                    <li><b>Potencia:</b> 1001 a 1200 CV</li>
+                    <li><b>Par motor:</b> 1250 a 1500 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discs ventilats carbó-cerámics amb ABS de 400 mm (Front.) i 380 mm (Post.)</li>
+                    <li><b>Rodes:</b> Michelin PAX 265-680 ZR500A (Front.) 365-710 ZR540A (Post.)</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó hidràulica</li>
+                    <li><b>Transmissió:</b> De doble embragatge DSG de 7 velocitats</li>
+                    <li><b>Suspensió:</b> De doble forquilla multibraç, paral·lelogram deformable, molls helicoïdals i
+                        barra estabilitzadora</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 431 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 2.5s</li>
+                    <li><b>Consum:</b> 14,7 L/100 km (6,8 km/L; 16,0 mpgAm)(Extraurbá) | 40,4 L/100 km (2,5 km/L; 5,8
+                        mpgAm) (urbá) | 24,1 L/100 km (4,1 km/L; 9,8 mpgAm) (mixte) </li>
+                    <li><b>Cx:</b> 0.36 (Condició normal) | 0.41 (al desplegar aleró)</li>
+                </ul>
+                <a href="../Concesionaris.html#BugattiSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div id="ContainerCard">
+            <div class="ImgCar"><img src="../ImagesVideos/ImgCars/Bugatti/Chiron/FH5_Bugatti_Chiron.png" alt=""
+                    srcset=""></div>
+            <h1 class="NameCar">Chiron</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p>W16 a 90° tetra turbo de 7993 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>490 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>2.4s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalChiron">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalChiron" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Bugatti Chiron</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Empresa Matriu:</b> Grup Volkswagen</li>
+                    <li><b>Fabricant:</b> Bugatti</li>
+                    <li><b>Dissenyador:</b> Achim Anscheidt (Cap de disseny),​ Frank Heyl
+                        Sasha Selipanov i Étienne Salomé</li>
+                    <li><b>Fàbriques:</b> France, Molsheim</li>
+                    <li><b>Producció:</b> 500 unitats</li>
+                    <li><b>Periode:</b> 2016-2024</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Cupé de 2 portes</li>
+                    <li><b>Configuració:</b> Motor central-posterior longitudinal, tracció integral</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,54m</li>
+                    <li><b>Amplada:</b> 2,03m</li>
+                    <li><b>Altura:</b> 1,21m</li>
+                    <li><b>Distancia entre eixos:</b> 2,71m</li>
+                    <li><b>Via frontal:</b> 1,74m</li>
+                    <li><b>Via posterior:</b> 1.66m</li>
+                    <li><b>Pes:</b> 1976 a 1995 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> W16 a 90° tetra turbo de 7993 cm<sup>3</sup></li>
+                    <li><b>Potencia:</b> 1500 a 1600 CV</li>
+                    <li><b>Par motor:</b> 1600 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discs ventilats amb servofrens y ABS de 420 mm (Front.) 400 mm (Post.)</li>
+                    <li><b>Rodes:</b> Michelin M Pilot Sport Cup 2 285/30 R20 plg (50,8 cm) (99Y) (Front.) 355/25 R21
+                        plg
+                        (53,3 cm) (107Y) (Post.)</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó hidràulica</li>
+                    <li><b>Transmissió:</b> Doble embragatge DSG de 7 velocitats</li>
+                    <li><b>Suspensió:</b> Independent adaptativa</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 490 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 2.4s</li>
+                    <li><b>Consum:</b> 26,1 L/100 km (3,8 km/L; 9 mpgAm) (Urbá) | 16,8 L/100 km (6 km/L; 14,0 mpgAm)
+                        (Autopista) | 21,4 L/100 km (4,7 km/L; 11,0 mpgAm) (Combinat) </li>
+                    <li><b>Cx:</b> 0.35 (“top speed mode”)</li>
+                </ul>
+                <a href="../Concesionaris.html#BugattiSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div id="ContainerCard">
+            <div class="ImgCar"><img src="../ImagesVideos/ImgCars/Bugatti/Divo/FH5_Bugatti_Divo.png" alt="" srcset="">
+            </div>
+            <h1 class="NameCar">Divo</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p>W16 tetra Turbo de 7993 cm³</p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>380 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>2.4s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalDivo">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalDivo" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Bugatti Divo</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Empresa Matriu:</b> Grup Volkswagen</li>
+                    <li><b>Fabricant:</b> Bugatti</li>
+                    <li><b>Dissenyador:</b> Achim Anscheidt (Cap de disseny),​ Frank Heyl
+                        Sasha Selipanov i Étienne Salomé</li>
+                    <li><b>Fàbriques:</b> France, Molsheim</li>
+                    <li><b>Producció:</b> 40 unitats</li>
+                    <li><b>Periode:</b> 2019-Juliol del 2021</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Cupé de 2 portes</li>
+                    <li><b>Configuració:</b> Motor central-posterior longitudinal, tracció total</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,64m</li>
+                    <li><b>Amplada:</b> 2,01m</li>
+                    <li><b>Altura:</b> 1,21m</li>
+                    <li><b>Distancia entre eixos:</b> 2,71m</li>
+                    <li><b>Via frontal:</b> 1,74m</li>
+                    <li><b>Via posterior:</b> 1.66m</li>
+                    <li><b>Pes:</b> 1961 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> W16 tetra Turbo de 7993 cm <sup>3</sup></li>
+                    <li><b>Potencia:</b> 1500 CV</li>
+                    <li><b>Par motor:</b> 1600 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discs ventilats carboni-ceràmics amb ABS de 420 mm (Front.) i 400 mm (Post.)</li>
+                    <li><b>Rodes:</b> 285/30 ZR20 x 10 plg (508 x 254 mm) (Front.) 355/25 ZR21 x 13,5 plg (533,4 x 342,9
+                        mm) (Post.)</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó hidràulica</li>
+                    <li><b>Transmissió:</b> Doble embragatge DSG de 7 velocitats</li>
+                    <li><b>Suspensió:</b> Doble forquilla</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 380 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 2.4s</li>
+                    <li><b>Consum:</b> 36,7 L/100 km (2,7 km/L; 6,4 mpgAm) (Urbá) | 15,8 L/100 km (6,3 km/L; 14,9 mpgAm)
+                        (Extraurbá) | 23,5 L/100 km (4,3 km/L; 10,0 mpgAm) (Combinat) </li>
+                    <li><b>Cx:</b> 0.35 (“top speed mode”)</li>
+                </ul>
+                <a href="../Concesionaris.html#BugattiSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>A© Copyright 2024-2025 Oriol Badia</footer>
+    <script src="https://kit.fontawesome.com/008e638cf2.js" crossorigin="anonymous"></script>
+    <script src="../Plugins/AOS/AOS.js"></script>
+    <script type="text/javascript" src="../Plugins/FullPage/node_modules/fullpage.js/dist/fullpage.js"></script>
+    <script src="../Plugins/IziModal/node_modules/izimodal/js/iziModal.js" type="text/javascript"></script>
+    <script src="../Plugins/IziModal/PersonalIziModal.js"></script>
+    <script src="../Plugins/SweetAlert/sweetalert2.all.min.js"></script>
+    <script src="../Plugins/SweetAlert/PersonalSweetAlert.js"></script>
+    <script src="../Plugins/SweetAlert/sweetalert2@11.js"></script>
+    <script src="../Plugins/Swiper/swiper-bundle.min.js"></script>
+    <script src="../Plugins/Tippy/Development/popper.min.js"></script>
+    <script src="../Plugins/Tippy/Development/tippy-bundle.umd.js"></script>
+    <script src="../Plugins/Tippy/Production/core@2.js"></script>
+    <script src="../Plugins/Tippy/Production/tippy@6.js"></script>
+    <script src="../Plugins/Tippy/PersonalTippy.js"></script>
+    <script src="../Programming/index.js"></script>
+</body>
+
+</html>

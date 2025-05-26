@@ -1,0 +1,252 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#BugattiBG {
+    background-image: url(../../ImagesVideos/bg_Bugatti.jpg);
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
+
+#FerrariBG {
+    background-image: url(../../ImagesVideos/bg_Ferrari.jpeg);
+    background-position: bottom;
+    backdrop-filter: blur(5px);
+}
+
+#KoenigseggBG {
+    background-image: url(../../ImagesVideos/bg_Koenigsegg.jpg);
+    background-position: bottom;
+    backdrop-filter: blur(5px);
+}
+
+#LamborghiniBG {
+    background-image: url(../../ImagesVideos/bg_Lamborghini.jpeg);
+    background-position: bottom;
+    backdrop-filter: blur(5px);
+}
+
+#MclarenBG {
+    background-image: url(../../ImagesVideos/bg_Mclaren.jpg);
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
+
+#RimacBG {
+    background-image: url(../../ImagesVideos/bg_Rimac.jpg);
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
+
+header {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.ContainerMenuToggle {
+    visibility: hidden;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#NavContainer {
+    font-family: "Iceberg", serif;
+    width: 40%;
+    display: flex;
+    position: fixed;
+    justify-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1%;
+    color: white;
+    clip-path: polygon(5% 15%,
+            95% 15%,
+            100% 50%,
+            95% 85%,
+            5% 85%,
+            0% 50%);
+}
+
+.MenuItem {
+    transition: 0.3s;
+    list-style: none;
+    margin: 0%;
+    padding: 1%;
+}
+
+.MenuItem:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#SubMenuMarques {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0% 3% 0%;
+    gap: 5%;
+    left: 36.3%;
+    top: 7.1%;
+    width: 10%;
+    color: white;
+    text-align: center;
+    height: 22%;
+    clip-path: polygon(50% 0%, 55% 6%, 100% 6%, 100% 100%, 0% 100%, 0% 6%, 45% 6%);
+}
+
+#SubMenuMes {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0% 3% 0%;
+    gap: 5%;
+    left: 60.8%;
+    top: 7.1%;
+    width: 10%;
+    color: white;
+    text-align: center;
+    height: 9%;
+    clip-path: polygon(50% 0%, 55% 6%, 100% 6%, 100% 100%, 0% 100%, 0% 6%, 45% 6%);
+}
+
+
+
+.ItemSubMenuMarques:hover {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+
+#banner {
+    text-align: center;
+    height: 86.7%;
+    padding-top: 5%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.TitleCar {
+    font-size: 1000%;
+    color: white;
+    margin-top: 2%;
+    font-family: "Tourney", serif;
+    font-weight: bolder;
+}
+
+#ContentCardsModelCars {
+    background-color: rgb(0, 0, 0);
+    height: 87%;
+    font-family: jura;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: antiquewhite; */
+    width: 100%;
+    padding: 4% 4% 0% 4%;
+}
+
+#ContentCardsModelCars2 {
+    background-color: rgb(0, 0, 0);
+    height: 87%;
+    font-family: jura;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: antiquewhite; */
+    width: 100%;
+    padding: 0% 4% 0% 4%;
+}
+
+#ContainerCard {
+    /* background-color: aqua; */
+    width: 20%;
+    height: max-content;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid white;
+}
+
+
+ul {
+    list-style: none;
+}
+
+h4 {
+    font-weight: bolder;
+}
+
+.BtnMoreinfo {
+    transition: 0.5s;
+    border: 1px solid white;
+    padding: 2%;
+}
+
+
+.BtnMoreinfo:hover {
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+footer {
+    font-family: "Quantico", serif;
+    position: static;
+    width: 100%;
+    bottom: 0%;
+    padding-bottom: 2%;
+    color: white;
+    background-color: rgba(0, 0, 0);
+}
+
+/*STYLES MODALS*/
+.modal {
+    background-color: rgba(0, 0, 0);
+    color: white;
+    font-family: jura;
+    flex-direction: column;
+    position: absolute;
+    border: 3px solid white;
+}
+
+.ContainerButtonSelectCar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ButtonSelectCar {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 2%;
+    border: 1px solid white;
+    padding: 1%;
+}
+
+.ButtonSelectCar:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.ModalTitle,
+.ModalSubtitle {
+    text-align: center;
+}
+
+/*-----------------------------------*/

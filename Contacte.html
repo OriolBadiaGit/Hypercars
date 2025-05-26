@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward_ios" />
+    <!--* FONTS GOOGLE *-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Saira -->
+    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Chakra | Iceberg | Tulpen -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Iceberg&family=Tulpen+One&display=swap"
+        rel="stylesheet">
+
+    <!-- Orbitron -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <!-- Orbitron -->
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+
+    <!-- Quantico -->
+    <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Audiowide -->
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+    <!-- Jura -->
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Tourney -->
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Tourney -->
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap"
+        rel="stylesheet">
+    <!--*------------------------------------------------------------------------*-->
+
+    <!--* FRAMEWORKS Y PLUGINS LINKS *-->
+    <link rel="stylesheet" href="Frameworks/Bootstrap/css/bootstrap.min.css">
+    <script src="Frameworks/Bootstrap/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="Frameworks/Jquery/jquery.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="Plugins/IziModal/node_modules/izimodal/css/iziModal.css">
+    <script src="Plugins/Parsley/parsley.min.js"></script>
+    <script src="Plugins/Parsley/LanguagesParsley/ca.js"></script>
+    <link rel="stylesheet" href="Plugins/SweetAlert/sweetalert2.min.css">
+    <link rel="stylesheet" href="Plugins/Swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="Plugins/Tippy/Animations/scale.css">
+    <!--*------------------------------------------------------------------------*-->
+
+    <link rel="stylesheet" href="Styles/Styles.css">
+    <link rel="stylesheet" href="Styles/Responsive/ResponsiveContacte.css">
+    <link rel="shortcut icon" href="ImagesVideos/LOGOWEB.png" type="image/x-icon">
+    <title>Hypercars</title>
+</head>
+
+<body id="BodyContacte">
+    <!--* MENÚ *-->
+    <header>
+        <nav id="NavContainer">
+            <ul class="MenuItem">
+                <li id="IniciMenuItem"><a href="Index.html">Inici</a></li>
+            </ul>
+            <ul class="MenuItem">
+                <li id="MenuTriggerMarques" class="MarquesMenuItem">Marques</li>
+            </ul>
+            <img class="logomenu" src="ImagesVideos/LOGOWEB.png" width="35" height="35" alt="">
+            <ul class="MenuItem">
+                <li id="ConcesionariMenuItem"><a href="Concesionaris.html">Concesionaris</a></li>
+            </ul>
+            <ul id="active" class="MenuItem">
+                <li id="MenuTriggerMes" class="MesMenuItem">Més</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="ContainerMenuToggle">
+        <div class="MenuToggle"><i class="fa-solid fa-bars"></i></div>
+    </div>
+
+    <div id="SubMenuMarques" hidden>
+        <a href="Marques/Ferrari.html">
+            <div class="ItemSubMenuMarques">Ferrari</div>
+        </a>
+        <a href="Marques/Lamborghini.html">
+            <div class="ItemSubMenuMarques">Lamborghini</div>
+        </a>
+        <a href="Marques/Koeniggseg.html">
+            <div class="ItemSubMenuMarques">Koeniggseg</div>
+        </a>
+        <a href="Marques/Bugatti.html">
+            <div class="ItemSubMenuMarques">Bugatti</div>
+        </a>
+        <a href="Marques/Mclaren.html">
+            <div class="ItemSubMenuMarques">Mclaren</div>
+        </a>
+        <a href="Marques/Rimac.html">
+            <div class="ItemSubMenuMarques">Rimac</div>
+        </a>
+    </div>
+    <div id="SubMenuMes" hidden>
+        <a href="Galeria.html">
+            <div class="ItemSubMenuMarques">Galeria</div>
+        </a>
+        <a href="#">
+            <div class="ItemSubMenuMarques">Contacte</div>
+        </a>
+    </div>
+    <!--*-------------------------*-->
+
+
+    <!--* VIDEO FONS *-->
+    <form class="FormContact" method="post">
+        <label class="LabelForm" id="TracteLabel" for="Tractament">
+            <h3>Tracte</h3>
+        </label>
+        <div class="RadiosSelection">
+            <input class="RadioButton" id="SrField" class="FieldForm" name="Sexe" type="radio"
+                data-parsley-error-message="Si us plau, selecciona una de les 2 opcions." required>
+            <p>Sr</p>
+            <input class="RadioButton" id="SraField" class="FieldForm" name="Sexe" type="radio"
+                data-parsley-error-message="Si us plau, selecciona una de les 2 opcions." required>
+            <p>Sra</p>
+        </div>
+        <label class="LabelForm" id="NomLabel" for="Nom">
+            <h3>Nom i cognoms:</h3>
+        </label>
+        <input type="text" name="Nom"
+            pattern="^([A-ZÀ-Ÿ][a-zà-ÿ]+(?:-[A-ZÀ-Ÿ][a-zà-ÿ]+)?)+ ([A-ZÀ-Ÿ][a-zà-ÿ]+(?:-[A-ZÀ-Ÿ][a-zà-ÿ]+)?)+ ([A-ZÀ-Ÿ][a-zà-ÿ]+(?:-[A-ZÀ-Ÿ][a-zà-ÿ]+)?)$"
+            id="NomField" class="FieldForm" data-parsley-error-message="Si us plau, introdueix un nom vàlid."
+            placeholder="Introdueix els teus noms i cognoms complerts." required>
+        <label class="LabelForm" id="TelfLabel" for="Telf">
+            <h3>Telèfon:</h3>
+        </label>
+        <input type="tel" name="Tel" pattern="^\+34[6-9][0-9]{8}$"
+            data-parsley-error-message="Si us plau, introdueix un número de telèfon vàlid." id="TelfField"
+            class="FieldForm" placeholder="Introdueix el teu número de telèfon." required>
+        <label class="LabelForm" id="MailLabel" for="Correu-e">
+            <h3>Correu electrònic:</h3>
+        </label>
+        <input type="email" name="email" data-parsley-type="email"
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            data-parsley-error-message="Si us plau, introdueix un correu elctrònic vàlid." id=" MailfField"
+            class="FieldForm" placeholder="Introdueix el teu correu electrònic." required>
+        <label class="LabelForm" id="QuestionDateLabel" for="Question">
+            <h3>Quin dia et va bé per venir?:</h3>
+        </label>
+        <input type="date" name="Date" id="DateField"
+            data-parsley-error-message="Si us plau, introdueix una data vàlida." class="FieldForm">
+        <label class="LabelForm" id="PaisosLabel" for="Question">
+            <h3>País:</h3>
+        </label>
+        <select id="PaisosField" class="FieldForm" name="Paisos" required>
+            <option value="AF">Afganistan</option>
+            <option value="AL">Albània</option>
+            <option value="DZ">Algèria</option>
+            <option value="AD">Andorra</option>
+            <option value="AO">Angola</option>
+            <option value="AG">Antigua i Barbuda</option>
+            <option value="AR">Argentina</option>
+            <option value="AM">Armènia</option>
+            <option value="AU">Austràlia</option>
+            <option value="AT">Àustria</option>
+            <option value="AZ">Azerbaidjan</option>
+            <option value="BS">Bahames</option>
+            <option value="BH">Bahrain</option>
+            <option value="BD">Bangladesh</option>
+            <option value="BB">Barbados</option>
+            <option value="BY">Bielorússia</option>
+            <option value="BE">Bèlgica</option>
+            <option value="BZ">Belize</option>
+            <option value="BJ">Benín</option>
+            <option value="BT">Bhutan</option>
+            <option value="BO">Bolívia</option>
+            <option value="BA">Bòsnia i Hercegovina</option>
+            <option value="BW">Botswana</option>
+            <option value="BR">Brasil</option>
+            <option value="BN">Brunei</option>
+            <option value="BG">Bulgària</option>
+            <option value="BF">Burkina Faso</option>
+            <option value="BI">Burundi</option>
+            <option value="KH">Cambodja</option>
+            <option value="CM">Camerun</option>
+            <option value="CA">Canadà</option>
+            <option value="CV">Cap Verd</option>
+            <option value="CF">República Centreafricana</option>
+            <option value="TD">Txad</option>
+            <option value="CL">Xile</option>
+            <option value="CN">Xina</option>
+            <option value="CO">Colòmbia</option>
+            <option value="KM">Comores</option>
+            <option value="CG">Congo</option>
+            <option value="CD">República Democràtica del Congo</option>
+            <option value="CR">Costa Rica</option>
+            <option value="CI">Costa d'Ivori</option>
+            <option value="HR">Croàcia</option>
+            <option value="CU">Cuba</option>
+            <option value="CY">Xipre</option>
+            <option value="CZ">República Txeca</option>
+            <option value="DK">Dinamarca</option>
+            <option value="DJ">Djibouti</option>
+            <option value="DM">Dominica</option>
+            <option value="DO">República Dominicana</option>
+            <option value="EC">Equador</option>
+            <option value="EG">Egipte</option>
+            <option value="SV">El Salvador</option>
+            <option value="GQ">Guinea Equatorial</option>
+            <option value="ER">Eritrea</option>
+            <option value="ES">Espanya</option>
+            <option value="EE">Estònia</option>
+            <option value="ET">Etiòpia</option>
+            <option value="FJ">Fiji</option>
+            <option value="FI">Finlàndia</option>
+            <option value="FR">França</option>
+            <option value="GA">Gabon</option>
+            <option value="GM">Gàmbia</option>
+            <option value="GE">Geòrgia</option>
+            <option value="DE">Alemanya</option>
+            <option value="GH">Ghana</option>
+            <option value="GR">Grècia</option>
+            <option value="GT">Guatemala</option>
+            <option value="GN">Guinea</option>
+            <option value="GY">Guyana</option>
+            <option value="HT">Haití</option>
+            <option value="HN">Hondures</option>
+            <option value="HU">Hongria</option>
+            <option value="IS">Islàndia</option>
+            <option value="IN">Índia</option>
+            <option value="ID">Indonèsia</option>
+            <option value="IR">Iran</option>
+            <option value="IQ">Iraq</option>
+            <option value="IE">Irlanda</option>
+            <option value="IT">Itàlia</option>
+            <option value="JM">Jamaica</option>
+            <option value="JP">Japó</option>
+            <option value="JO">Jordània</option>
+            <option value="KZ">Kazakhstan</option>
+            <option value="KE">Kenya</option>
+            <option value="KR">Corea del Sud</option>
+            <option value="KW">Kuwait</option>
+            <option value="LV">Letònia</option>
+            <option value="LB">Líban</option>
+            <option value="LY">Líbia</option>
+            <option value="LT">Lituània</option>
+            <option value="LU">Luxemburg</option>
+            <option value="MG">Madagascar</option>
+            <option value="MY">Malàisia</option>
+            <option value="MX">Mèxic</option>
+            <option value="MA">Marroc</option>
+            <option value="NP">Nepal</option>
+            <option value="NL">Països Baixos</option>
+            <option value="NZ">Nova Zelanda</option>
+            <option value="NI">Nicaragua</option>
+            <option value="NG">Nigèria</option>
+            <option value="NO">Noruega</option>
+            <option value="PK">Pakistan</option>
+            <option value="PA">Panamà</option>
+            <option value="PY">Paraguai</option>
+            <option value="PE">Perú</option>
+            <option value="PH">Filipines</option>
+            <option value="PL">Polònia</option>
+            <option value="PT">Portugal</option>
+            <option value="QA">Qatar</option>
+            <option value="RO">Romania</option>
+            <option value="RU">Rússia</option>
+            <option value="SA">Aràbia Saudita</option>
+            <option value="ZA">Sud-àfrica</option>
+            <option value="SE">Suècia</option>
+            <option value="CH">Suïssa</option>
+            <option value="TH">Tailàndia</option>
+            <option value="TR">Turquia</option>
+            <option value="UA">Ucraïna</option>
+            <option value="AE">Emirats Àrabs Units</option>
+            <option value="GB">Regne Unit</option>
+            <option value="US">Estats Units</option>
+            <option value="UY">Uruguai</option>
+            <option value="VE">Veneçuela</option>
+            <option value="VN">Vietnam</option>
+        </select>
+        <label class="LabelForm" id="RegioLabel" for="Nom">
+            <h3>Regió:</h3>
+        </label>
+        <input type="text" name="Nom" id="RegioField" pattern="^[A-Za-zÀ-ÿĀ-ū\s-]+$"" class=" FieldForm"
+            data-parsley-error-message="Si us plau, introdueix una regió." placeholder="Introdueix la teva regió."
+            required>
+        <label class="LabelForm" id="PaisosLabel" for="Question">
+            <h3>Idioma:</h3>
+        </label>
+        <select id="IdiomesField" class="FieldForm" name="Idiomes" required>
+            <option value="af">Afrikàans</option>
+            <option value="sq">Albanès</option>
+            <option value="am">Amhàric</option>
+            <option value="ar">Àrab</option>
+            <option value="hy">Armeni</option>
+            <option value="az">Azerbaidjanès</option>
+            <option value="eu">Basc</option>
+            <option value="be">Bielorús</option>
+            <option value="bn">Bengalí</option>
+            <option value="bs">Bosnià</option>
+            <option value="bg">Búlgar</option>
+            <option value="es">Castellà</option>
+            <option value="ca">Català</option>
+            <option value="ceb">Cebuà</option>
+            <option value="ny">Chichewa</option>
+            <option value="zh">Xinès</option>
+            <option value="co">Còrnic</option>
+            <option value="hr">Croat</option>
+            <option value="cs">Txec</option>
+            <option value="da">Danès</option>
+            <option value="nl">Neerlandès</option>
+            <option value="en">Anglès</option>
+            <option value="eo">Esperanto</option>
+            <option value="et">Estonià</option>
+            <option value="tl">Filipí</option>
+            <option value="fi">Finès</option>
+            <option value="fr">Francès</option>
+            <option value="fy">Frisó</option>
+            <option value="gl">Gallec</option>
+            <option value="ka">Georgià</option>
+            <option value="de">Alemany</option>
+            <option value="el">Grec</option>
+            <option value="gu">Gujarati</option>
+            <option value="ht">Crioll haitià</option>
+            <option value="ha">Hausa</option>
+            <option value="haw">Hawaïà</option>
+            <option value="he">Hebreu</option>
+            <option value="hi">Hindi</option>
+            <option value="hmn">Hmong</option>
+            <option value="hu">Hongarès</option>
+            <option value="is">Islandès</option>
+            <option value="id">Indonesi</option>
+            <option value="ga">Irlandès</option>
+            <option value="it">Italià</option>
+            <option value="ja">Japonès</option>
+            <option value="jv">Javanès</option>
+            <option value="kn">Kannada</option>
+            <option value="kk">Kazakh</option>
+            <option value="km">Khmer</option>
+            <option value="ko">Coreà</option>
+            <option value="ku">Kurd</option>
+            <option value="ky">Kirguís</option>
+            <option value="lo">Laosià</option>
+            <option value="la">Llatí</option>
+            <option value="lv">Letó</option>
+            <option value="lt">Lituà</option>
+            <option value="lb">Luxemburguès</option>
+            <option value="mk">Macedoni</option>
+            <option value="mg">Malgatx</option>
+            <option value="ms">Malai</option>
+            <option value="ml">Malayalam</option>
+            <option value="mt">Maltès</option>
+            <option value="mi">Maori</option>
+            <option value="mr">Marathi</option>
+            <option value="mn">Mongol</option>
+            <option value="my">Birmà</option>
+            <option value="ne">Nepalès</option>
+            <option value="no">Noruec</option>
+            <option value="ps">Paixtu</option>
+            <option value="fa">Persa</option>
+            <option value="pl">Polonès</option>
+            <option value="pt">Portuguès</option>
+            <option value="pa">Panjabi</option>
+            <option value="ro">Romanès</option>
+            <option value="ru">Rus</option>
+            <option value="sm">Samoà</option>
+            <option value="gd">Gaèlic escocès</option>
+            <option value="sr">Serbi</option>
+            <option value="st">Sesotho</option>
+            <option value="sn">Shona</option>
+            <option value="sd">Sindhi</option>
+            <option value="si">Singalès</option>
+            <option value="sk">Eslovac</option>
+            <option value="sl">Eslovè</option>
+            <option value="so">Somali</option>
+            <option value="su">Sundanès</option>
+            <option value="sw">Swahili</option>
+            <option value="sv">Suec</option>
+            <option value="tg">Tadjik</option>
+            <option value="ta">Tàmil</option>
+            <option value="te">Telugu</option>
+            <option value="th">Tailandès</option>
+            <option value="tr">Turc</option>
+            <option value="uk">Ucraïnès</option>
+            <option value="ur">Urdú</option>
+            <option value="uz">Uzbek</option>
+            <option value="vi">Vietnamita</option>
+            <option value="cy">Gal·lès</option>
+            <option value="xh">Xhosa</option>
+            <option value="yi">Jiddisch</option>
+            <option value="yo">Ioruba</option>
+            <option value="zu">Zulú</option>
+        </select>
+        <div class="ContainerBtnFormContact">
+            <button class="BtnSendFormContact" type="submit">Enviar</button>
+        </div>
+    </form>
+    <!--*-------------------------*-->
+    <footer>© Copyright 2024-2025 Oriol Badia</footer>
+    <script src="https://kit.fontawesome.com/008e638cf2.js" crossorigin="anonymous"></script>
+    <script src="Plugins/AOS/AOS.js"></script>
+    <script src="Plugins/IziModal/node_modules/izimodal/js/iziModal.js"></script>
+    <script src="Plugins/IziModal/PersonalIziModal.js"></script>
+    <script src="Plugins/Parsley/PersonalParsley.js"></script>
+    <script src="Plugins/SweetAlert/sweetalert2.all.min.js"></script>
+    <script src="Plugins/SweetAlert/PersonalSweetAlert.js"></script>
+    <script src="Plugins/SweetAlert/sweetalert2@11.js"></script>
+    <script src="Plugins/Swiper/swiper-bundle.min.js"></script>
+    <script src="Plugins/Tippy/Development/popper.min.js"></script>
+    <script src="Plugins/Tippy/Development/tippy-bundle.umd.js"></script>
+    <script src="Plugins/Tippy/Production/core@2.js"></script>
+    <script src="Plugins/Tippy/Production/tippy@6.js"></script>
+    <script src="Plugins/Tippy/PersonalTippy.js"></script>
+    <script src="Programming/index.js"></script>
+</body>
+
+</html>

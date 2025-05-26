@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward_ios" />
+    <!--* FONTS GOOGLE *-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Saira -->
+    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Chakra | Iceberg | Tulpen -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Iceberg&family=Tulpen+One&display=swap"
+        rel="stylesheet">
+
+    <!-- Orbitron -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <!-- Orbitron -->
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+
+    <!-- Quantico -->
+    <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Audiowide -->
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+    <!-- Jura -->
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Tourney -->
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Tourney -->
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap"
+        rel="stylesheet">
+    <!--*------------------------------------------------------------------------*-->
+
+    <!--* FRAMEWORKS Y PLUGINS LINKS *-->
+    <link rel="stylesheet" href="../Frameworks/Bootstrap/css/bootstrap.min.css">
+    <script src="../Frameworks/Bootstrap/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="../Frameworks/Jquery/jquery.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../Plugins/FullPage/node_modules/fullpage.js/dist/fullpage.css" />
+    <link rel="stylesheet" href="../Plugins/IziModal/node_modules/izimodal/css/iziModal.css">
+    <script src="../Plugins/Parsley/parsley.min.js"></script>
+    <script src="../Plugins/Parsley/LanguagesParsley/ca.js"></script>
+    <link rel="stylesheet" href="../Plugins/SweetAlert/sweetalert2.min.css">
+    <link rel="stylesheet" href="../Plugins/Swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../Plugins/Tippy/Animations/scale.css">
+    <!--*------------------------------------------------------------------------*-->
+
+    <link rel="stylesheet" href="StylesMarques/StylesMarques.css">
+    <link rel="stylesheet" href="../Styles/Responsive/ResponsiveMarques.css">
+    <link rel="shortcut icon" href="../ImagesVideos/LOGOWEB.png" type="image/x-icon">
+    <title>Hypercars | Koeniggseg</title>
+</head>
+
+<body id="KoenigseggBG">
+    <!--* MENÚ *-->
+    <header>
+        <nav id="NavContainer">
+
+            <ul class="MenuItem">
+                <li id="IniciMenuItem"><a href="../Index.html">Inici</a></li>
+            </ul>
+            <ul id="active" class="MenuItem">
+                <li id="MenuTriggerMarques" class="MarquesMenuItem">Marques</li>
+            </ul>
+            <img src="../ImagesVideos/LOGOWEB.png" width="35" height="35" alt="">
+            <ul class="MenuItem">
+                <li id="ConcesionariMenuItem"><a href="../Concesionaris.html">Concesionaris</a></li>
+            </ul>
+            <ul class="MenuItem">
+                <li id="MenuTriggerMes" class="MesMenuItem">Més</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="ContainerMenuToggle">
+        <div class="MenuToggle"><i class="fa-solid fa-bars"></i></div>
+    </div>
+    <div id="SubMenuMarques" hidden>
+        <a href="Ferrari.html">
+            <div class="ItemSubMenuMarques">Ferrari</div>
+        </a>
+        <a href="Lamborghini.html">
+            <div class="ItemSubMenuMarques">Lamborghini</div>
+        </a>
+        <a href="#">
+            <div class="ItemSubMenuMarques">Koeniggseg</div>
+        </a>
+        <a href="Bugatti.html">
+            <div class="ItemSubMenuMarques">Bugatti</div>
+        </a>
+        <a href="Mclaren.html">
+            <div class="ItemSubMenuMarques">Mclaren</div>
+        </a>
+        <a href="Rimac.html">
+            <div class="ItemSubMenuMarques">Rimac</div>
+        </a>
+    </div>
+    <div id="SubMenuMes" hidden>
+        <a href="../Galeria.html">
+            <div class="ItemSubMenuMarques">Galeria</div>
+        </a>
+        <a href="../Contacte.html">
+            <div class="ItemSubMenuMarques">Contacte</div>
+        </a>
+
+    </div>
+    <!--*-------------------------*-->
+
+    <div id="banner">
+        <img id="imgBannerBugatti" src="../ImagesVideos/koenigsegg-logo.svg" width="599" height="400" alt="">
+        <h1 class="TitleCar">KOENIGSEGG</h1>
+    </div>
+    <div id="ContentCardsModelCars">
+        <div id="ContainerCard">
+            <div class="ImgCar"><img src="../ImagesVideos/ImgCars/Koenigsegg/CC8S/FH5_Koenigsegg_CC8S.png" alt=""
+                    srcset=""></div>
+            <h1 class="NameCar">CC8S</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p>V8 a 90° sobrealimentat de 4,7 L</p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>390 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>3.5</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalCC8S">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalCC8S" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Koenigsegg CC8S</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> Koenigsegg</li>
+                    <li><b>Dissenyador:</b> Christian von Koenigsegg i David Crafoord​</li>
+                    <li><b>Fàbriques:</b> Ängelholm, Suecia</li>
+                    <li><b>Producció:</b> 6 unitats</li>
+                    <li><b>Periode:</b> 2002-2003</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Plataforma:</b> Koenigsegg CC</li>
+                    <li><b>Carrosseria:</b> Targa top de 2 portes dièdriques</li>
+                    <li><b>Configuració:</b> Motor central-darrere longitudinal, tracció a les quatre rodes</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,19m</li>
+                    <li><b>Amplada:</b> 1,98m</li>
+                    <li><b>Altura:</b> 1,06m</li>
+                    <li><b>Distancia entre eixos:</b> 2,65m</li>
+                    <li><b>Maleter:</b> 120 L</li>
+                    <li><b>Pes:</b> 1175 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V8 a 90° sobrealimentat de 4,7 L</li>
+                    <li><b>Potencia:</b> 655 CV</li>
+                    <li><b>Par motor:</b> 750 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discs ventilats i perforats en creu de 340 mm (13,4 plg) (Front.) 315 mm (12,4
+                        plg)
+                        (Post.)
+                    </li>
+                    <li><b>Rodes:</b> Pilot Sport 2 de 225/40 ZR18 x 9 plg (45,7 x 22,9 cm) (Front.) 335/40 ZR20 x 12,5
+                        plg (50,8 x 31,8 cm) (Post.)</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó hidràulica</li>
+                    <li><b>Transmissió:</b> Manual Cim de 6 marxes</li>
+                    <li><b>Suspensió:</b> Doble forquilla, amortidors de gas hidràulics Öhlins tipus "pushrod", barra
+                        estabilitzadora i alçada ajustable electrònicament</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 390 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 3.5s</li>
+                    <li><b>Cx:</b> 0.297</li>
+                </ul>
+                <a href="../Concesionaris.html#KoenigseggSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="ImgCar"><img src="../ImagesVideos/ImgCars/Koenigsegg/CCR/HOR_X360_Koenigsegg_CCX-R.png" alt=""
+                    srcset=""></div>
+            <h1 class="NameCar">CCR</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p>V8 a 90° sobrealimentat de 4,7 L</p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>395 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>3.2s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalCCR">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalCCR" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Koenigsegg CCR</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> Koenigsegg</li>
+                    <li><b>Dissenyador:</b> Christian von Koenigsegg i David Crafoord​</li>
+                    <li><b>Fàbriques:</b> Ängelholm, Suecia</li>
+                    <li><b>Producció:</b> 14 unitats</li>
+                    <li><b>Periode:</b> 2004-2006</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Targa top de 2 portes dièdriques</li>
+                    <li><b>Configuració:</b> Motor central-darrere longitudinal, tracció a les quatre rodes</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,19m</li>
+                    <li><b>Amplada:</b> 1,99m</li>
+                    <li><b>Altura:</b> 1,07m</li>
+                    <li><b>Distancia entre eixos:</b> 2,66m</li>
+                    <li><b>Maleter:</b> 120 L</li>
+                    <li><b>Pes:</b> 1180 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V8 a 90° sobrealimentat de 4,7 L</li>
+                    <li><b>Potencia:</b> 817 CV</li>
+                    <li><b>Par motor:</b> 920 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discs ventilats amb ABS de 362 mm (14,3 polzades)
+                    </li>
+                    <li><b>Rodes:</b> Pilot Sport 2 255/35 R19 x 9,5 plg (48,3 x 24,1 cm) (Front.) 335/30 R20 x 12,5 plg
+                        (50,8 x 31,8 cm) (Post.)</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó hidràulica</li>
+                    <li><b>Transmissió:</b> Manual Cim de 6 marxes</li>
+                    <li><b>Suspensió:</b> Doble forquilla, amortiguadors de gas hidràulics Öhlins tipus "pushrod", barra
+                        estabilitzadora i alçada ajustable electrònicament</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 395 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 3.2s</li>
+                    <li><b>Consum:</b> 13 L/100 km (7,7 km/L; 18,1 mpgAm) (Carretera) | 17 L/100 km (5,9 km/L; 13,8
+                        mpgAm) (Combinat)</li>
+                    <li><b>Cx:</b> 0.297</li>
+                </ul>
+                <a href="../Concesionaris.html#KoenigseggSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="ImgCar"><img src="../ImagesVideos/ImgCars/Koenigsegg/CCX/FH5_Koenigsegg_CCX.png" alt=""
+                    srcset=""></div>
+            <h1 class="NameCar">CCX</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p>V8 a 90° amb doble supercargador</p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>420 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>3.2s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalCCX">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalCCX" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Koenigsegg CCX</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> Koenigsegg</li>
+                    <li><b>Dissenyador:</b> Sven-Harry Åkesson i Christian von Koenigsegg​</li>
+                    <li><b>Fàbriques:</b> Ängelholm, Suecia</li>
+                    <li><b>Periode:</b> 2006-2010</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Coupé i Descapotable, tots dos de 2 portes</li>
+                    <li><b>Configuració:</b> Motor central-posterior, tracció posterior</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,29m</li>
+                    <li><b>Amplada:</b> 1,99m</li>
+                    <li><b>Altura:</b> 1,12m</li>
+                    <li><b>Distancia entre eixos:</b> 2,66m</li>
+                    <li><b>Via frontal:</b> 1,70m</li>
+                    <li><b>Via posterior:</b> 1,65m</li>
+                    <li><b>Maleter:</b> 120L</li>
+                    <li><b>Pes:</b> 1435-1330 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V8 a 90° Biturbo de 5032 cm<sup>3</sup></li>
+                    <li><b>Potencia:</b> 960-1360 CV</li>
+                    <li><b>Par motor:</b> 1100-1371 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discs ventilats carboni-ceràmics amb servofre i ABS de 392 mm (15,4 plg) (Front.)
+                        380 mm (15 plg) (Post.)</li>
+                    <li><b>Rodes:</b> Pilot Supersport 265/35 19 x 9,5 plg (48,3 x 24,1 cm) I (Front.) 345/30 20 x 12,5
+                        plg (50,8 x 31,8 cm) I (Post.)</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó hidràulica</li>
+                    <li><b>Transmissió:</b> De doble embragatge de 7 velocitats</li>
+                    <li><b>Suspensio:</b> De doble forquilla, amortidors hidràulics de gas "VPS" ajustables de 2 vies,
+                        operada per barra de torsió (tipus "pushrod") i barra estabilitzadora</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 457 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 2.8s</li>
+                    <li><b>Consum:</b> 12,5 L/100 km (8 km/L; 18,8 mpgAm) (Carretera) | 14,7 L/100 km (6,8 km/L; 16,0
+                        mpgAm) (Combinat)</li>
+                    <li><b>Cx:</b> 0,33 o 0,37 amb spoiler del darrere adaptable</li>
+                </ul>
+                <a href="../Concesionaris.html#KoenigseggSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="ImgCar"><img src="../ImagesVideos/ImgCars/Koenigsegg/Agera/HOR_XB1_Koenigsegg_Agera.png" alt=""
+                    srcset=""></div>
+            <h1 class="NameCar">Agera</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p>V8 a 90° Biturbo de 5032 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>457,94 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>2.8s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalAgera">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalAgera" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Koenigsegg Agera</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> Koenigsegg</li>
+                    <li><b>Dissenyador:</b> Christian von Koenigsegg​</li>
+                    <li><b>Fàbriques:</b> Ängelholm, Suecia</li>
+                    <li><b>Periode:</b> 2011-2018</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Targa top de 2 portes dièdriques</li>
+                    <li><b>Configuració:</b> Motor central-posterior longitudinal, tracció posterior</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,29m</li>
+                    <li><b>Amplada:</b> 1,99m</li>
+                    <li><b>Altura:</b> 1,12m</li>
+                    <li><b>Distancia entre eixos:</b> 2,66m</li>
+                    <li><b>Pes:</b> 1180 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V8 a 90° amb doble supercarregador</li>
+                    <li><b>Potencia:</b> 806-1018 CV</li>
+                    <li><b>Par motor:</b> 920-1080 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discs ventilats carboni ceràmics amb ABS</li>
+                    <li><b>Rodes:</b> Posteriors Michelin Pilot Sport de 335/30, amb rines de 20 plg (50,8 cm)</li>
+                    <li><b>Transmissió:</b> Manual seqüencial de 6 velocitats</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 420 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 3.2s</li>
+                    <li><b>Consum:</b> 22 L (5,8 galAm)/100 km (62 mi)</li>
+                    <li><b>Cx:</b> 0.30</li>
+                </ul>
+                <a href="../Concesionaris.html#KoenigseggSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="ContentCardsModelCars2">
+        <div id="ContainerCard">
+            <div class="ImgCar"><img src="../ImagesVideos/ImgCars/Koenigsegg/Jesko/FH5_Koenigsegg_Jesko.png" alt=""
+                    srcset=""></div>
+            <h1 class="NameCar">Jesko</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p>V8 a 90° Biturbo de 5065 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>390 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>3.5</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalJesko">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalJesko" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Koenigsegg Jesko</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> Koenigsegg</li>
+                    <li><b>Dissenyador:</b> Christian von Koenigsegg i Joachim Nordwall​</li>
+                    <li><b>Fàbriques:</b> Ängelholm, Suecia</li>
+                    <li><b>Producció:</b> 125 unitats</li>
+                    <li><b>Periode:</b> 2020-present</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Targa top de 2 portes dièdriques</li>
+                    <li><b>Configuració:</b> Motor central-posterior longitudinal, tracció posterior</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,61m</li>
+                    <li><b>Amplada:</b> 2,03m</li>
+                    <li><b>Altura:</b> 1,21m</li>
+                    <li><b>Distancia entre eixos:</b> 2,70m</li>
+                    <li><b>Maleter:</b> 100L</li>
+                    <li><b>Pes:</b> 1320-1420 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V8 a 90° Biturbo de 5065 cm<sup>3</sup></li>
+                    <li><b>Potencia:</b> 1298-1625 CV</li>
+                    <li><b>Par motor:</b> 1500 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discos ventilats carboni-ceràmics amb ABS de 410 mm (16,1 plg) (Front.) 395 mm
+                        (15,6
+                        plg) (Post.)</li>
+                    <li><b>Rodes:</b>Pilot Sport Cup 2 265/35 R20 x 9,5 plg (50,8 x 24,1 cm) (Front.) 325/30 R21 x 12,5
+                        plg (53,3 x 31,8 cm) (Post..)</li>
+                    <li><b>Direcció:</b> Pinyó i cremallera hidràulica</li>
+                    <li><b>Transmissió:</b> Semiautomàtica multi-embragatge LST de 9 marxes</li>
+                    <li><b>Suspensió:</b> Doble forquilla amb amortidors Triplex de gas hidràulics electrònicament
+                        ajustables en alçada</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 483 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 3.5s</li>
+                    <li><b>Consum:</b> 22 L (5,8 galAm)/100 km (62 mi)</li>
+                    <li><b>Cx:</b> 0.278</li>
+                </ul>
+                <a href="../Concesionaris.html#KoenigseggSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="ImgCar"><img src="../ImagesVideos/ImgCars/Koenigsegg/Regera/HOR_XB1_Koenigsegg_Regera.png"
+                    alt="" srcset=""></div>
+            <h1 class="NameCar">Regera</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p>V8 a 90° biturbo de 5032 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>410 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>2.8s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalRegera">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalRegera" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Koenigsegg Regera</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> Koenigsegg</li>
+                    <li><b>Dissenyador:</b> Christian von Koenigsegg i Joachim Nordwall​</li>
+                    <li><b>Fàbriques:</b> Ängelholm, Suecia</li>
+                    <li><b>Producció:</b> 80 unitats</li>
+                    <li><b>Periode:</b> 2016-present</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Cupé de 2 portes dièdriques</li>
+                    <li><b>Propulsió:</b> Híbrid elèctric endollable</li>
+                    <li><b>Configuració:</b> Motor central-posterior longitudinal, tracció posterior</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,56m</li>
+                    <li><b>Amplada:</b> 2,05m</li>
+                    <li><b>Altura:</b> 1,10m</li>
+                    <li><b>Distancia entre eixos:</b> 2,62m</li>
+                    <li><b>Maleter:</b> 150L</li>
+                    <li><b>Pes:</b> 1420-1628 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V8 a 90° biturbo de 5032 cm<sup>3</sup> (5 L); i 3 elèctrics</li>
+                    <li><b>Bateria:</b> D'ió de liti de 4,6 kWh (17 MJ)</li>
+                    <li><b>Autonomia:</b> 35km</li>
+                    <li><b>Carga de bateries:</b> 120 V, 240 V AC i connector tipus 2</li>
+                    <li><b>Potencia:</b> 1509 CV</li>
+                    <li><b>Par motor:</b> 2000 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b>Discos ventilats ceràmics amb ABS de 397 mm (15,6 plg) (Front..) 380 mm (15,0 plg)
+                        (Post.)</li>
+                    <li><b>Rodes:</b>Supersport o Cup2 275/35 19 plg (48,3 cm) (Front.) 345/30 20 plg (50,8 cm) (Post.)
+                    </li>
+                    <li><b>Direcció:</b> Pinyó i cremallera hidràulica</li>
+                    <li><b>Transmissió:</b> D'engranatges fixa d'una sola velocitat KDD</li>
+                    <li><b>Suspensió:</b> Doble forquilla, barra estabilitzadora i amortidors "Triplex" Öhlins</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 410 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 2.8s</li>
+                </ul>
+                <a href="../Concesionaris.html#KoenigseggSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="ImgCar"><img src="../ImagesVideos/ImgCars/Koenigsegg/one1/HOR_XB1_Koenigsegg_One-1.png" alt=""
+                    srcset=""></div>
+            <h1 class="NameCar">One:1</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p>V8 a 90° Biturbo de 5032 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>440 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>2.8s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalOne1">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalOne1" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Koenigsegg One:1</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> Koenigsegg</li>
+                    <li><b>Dissenyador:</b> Christian von Koenigsegg</li>
+                    <li><b>Fàbriques:</b> Ängelholm, Suecia</li>
+                    <li><b>Producció:</b> 7 unitats</li>
+                    <li><b>Periode:</b> 2014-2015</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Cupé de 2 portes dièdriques</li>
+                    <li><b>Configuració:</b> Motor central-posterior longitudinal, tracció posterior</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,50m</li>
+                    <li><b>Amplada:</b> 2,06m</li>
+                    <li><b>Altura:</b> 1,15m</li>
+                    <li><b>Distancia entre eixos:</b> 2,66m</li>
+                    <li><b>Via Frontal:</b> 1,70m</li>
+                    <li><b>Via Posterior:</b> 1,65m</li>
+                    <li><b>Pes:</b> 1360 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V8 a 90° Biturbo de 5032 cm<sup>3</sup></li>
+                    <li><b>Potencia:</b> 1360 CV</li>
+                    <li><b>Par motor:</b> 1371 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b>Discos ventilats carboni-ceràmics amb ABS de 397 mm (15,6 plg) (Front.) 380 mm
+                        (15,0
+                        plg) (Post.)</li>
+                    <li><b>Rodes:</b>Cup 2 265/35 R19 x 9,5 plg (48,3 x 24,1 cm) (Y) (Front.) 345/30 R20 x 12,5 plg
+                        (50,8
+                        x 31,8 cm) (Y) (Post..)</li>
+                    <li><b>Direcció:</b> Pinyó i cremallera electrohidràulica</li>
+                    <li><b>Transmissió:</b> Doble embragatge de 7 velocitats</li>
+                    <li><b>Suspensió:</b> Doble forquilla, molls helicoïdals, amortidors Triplex i barra estabilitzadora
+                    </li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 440 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 2.8s</li>
+                    <li><b>Cx:</b> 0.45-0.50 amb aleró posterior mòbil adaptable</li>
+                </ul>
+                <a href="../Concesionaris.html#KoenigseggSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="ImgCar"><img src="../ImagesVideos/ImgCars/Koenigsegg/CCGT/FH5_Koenigsegg_CCGT.png" alt=""
+                    srcset=""></div>
+            <h1 class="NameCar">CCGT</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p>V8 a 90° Biturbo de 5032 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>457,94 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>2.8s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalCCGT">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalCCGT" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Koenigsegg CCGT</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> Koenigsegg</li>
+                    <li><b>Dissenyador:</b> Sven-Harry Åkesson</li>
+                    <li><b>Fàbriques:</b> Ängelholm, Suecia</li>
+                    <li><b>Periode:</b> 2007-2008</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Cupé de 2 portes</li>
+                    <li><b>Configuració:</b> Motor central-posterior longitudinal, tracció posterior</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,29m</li>
+                    <li><b>Amplada:</b> 1,99m</li>
+                    <li><b>Altura:</b> 1,03m</li>
+                    <li><b>Pes:</b> 1000 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> Motor V8 posterior de 5,0L, </li>
+                    <li><b>Potencia:</b> 600 CV</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li>-</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 457 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 2.8s</li>
+                    <li><b>Cx:</b> 0.297</li>
+                </ul>
+                <a href="../Concesionaris.html#KoenigseggSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>© Copyright 2024-2025 Oriol Badia</footer>
+    <script src="https://kit.fontawesome.com/008e638cf2.js" crossorigin="anonymous"></script>
+    <script src="../Plugins/AOS/AOS.js"></script>
+    <script type="text/javascript" src="../Plugins/FullPage/node_modules/fullpage.js/dist/fullpage.js"></script>
+    <script src="../Plugins/IziModal/node_modules/izimodal/js/iziModal.js" type="text/javascript"></script>
+    <script src="../Plugins/IziModal/PersonalIziModal.js"></script>
+    <script src="../Plugins/SweetAlert/sweetalert2.all.min.js"></script>
+    <script src="../Plugins/SweetAlert/PersonalSweetAlert.js"></script>
+    <script src="../Plugins/SweetAlert/sweetalert2@11.js"></script>
+    <script src="../Plugins/Swiper/swiper-bundle.min.js"></script>
+    <script src="../Plugins/Tippy/Development/popper.min.js"></script>
+    <script src="../Plugins/Tippy/Development/tippy-bundle.umd.js"></script>
+    <script src="../Plugins/Tippy/Production/core@2.js"></script>
+    <script src="../Plugins/Tippy/Production/tippy@6.js"></script>
+    <script src="../Plugins/Tippy/PersonalTippy.js"></script>
+    <script src="../Programming/index.js"></script>
+</body>
+
+</html>

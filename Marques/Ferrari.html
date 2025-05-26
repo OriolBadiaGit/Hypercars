@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward_ios" />
+    <!--* FONTS GOOGLE *-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Saira -->
+    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Chakra | Iceberg | Tulpen -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Iceberg&family=Tulpen+One&display=swap"
+        rel="stylesheet">
+
+    <!-- Orbitron -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <!-- Orbitron -->
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+
+    <!-- Quantico -->
+    <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Audiowide -->
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+    <!-- Jura -->
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Tourney -->
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Tourney -->
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap"
+        rel="stylesheet">
+    <!--*------------------------------------------------------------------------*-->
+
+    <!--* FRAMEWORKS Y PLUGINS LINKS *-->
+    <link rel="stylesheet" href="../Frameworks/Bootstrap/css/bootstrap.min.css">
+    <script src="../Frameworks/Bootstrap/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="../Frameworks/Jquery/jquery.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../Plugins/FullPage/node_modules/fullpage.js/dist/fullpage.css" />
+    <link rel="stylesheet" href="../Plugins/IziModal/node_modules/izimodal/css/iziModal.css">
+    <script src="../Plugins/Parsley/parsley.min.js"></script>
+    <script src="../Plugins/Parsley/LanguagesParsley/ca.js"></script>
+    <link rel="stylesheet" href="../Plugins/SweetAlert/sweetalert2.min.css">
+    <link rel="stylesheet" href="../Plugins/Swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../Plugins/Tippy/Animations/scale.css">
+    <!--*------------------------------------------------------------------------*-->
+
+    <link rel="stylesheet" href="StylesMarques/StylesMarques.css">
+    <link rel="stylesheet" href="../Styles/Responsive/ResponsiveMarques.css">
+    <link rel="shortcut icon" href="../ImagesVideos/LOGOWEB.png" type="image/x-icon">
+    <title>Hypercars | Ferrari</title>
+</head>
+
+<body id="FerrariBG">
+    <!--* MENÚ *-->
+    <header>
+        <nav id="NavContainer">
+
+            <ul class="MenuItem">
+                <li id="IniciMenuItem"><a href="../Index.html">Inici</a></li>
+            </ul>
+            <ul id="active" class="MenuItem">
+                <li id="MenuTriggerMarques" class="MarquesMenuItem">Marques</li>
+            </ul>
+            <img src="../ImagesVideos/LOGOWEB.png" width="35" height="35" alt="">
+            <ul class="MenuItem">
+                <li id="ConcesionariMenuItem"><a href="../Concesionaris.html">Concesionaris</a></li>
+            </ul>
+            <ul class="MenuItem">
+                <li id="MenuTriggerMes" class="MesMenuItem">Més</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="ContainerMenuToggle">
+        <div class="MenuToggle"><i class="fa-solid fa-bars"></i></div>
+    </div>
+    <div id="SubMenuMarques" hidden>
+        <a href="#">
+            <div class="ItemSubMenuMarques">Ferrari</div>
+        </a>
+        <a href="Lamborghini.html">
+            <div class="ItemSubMenuMarques">Lamborghini</div>
+        </a>
+        <a href="Koeniggseg.html">
+            <div class="ItemSubMenuMarques">Koeniggseg</div>
+        </a>
+        <a href="Bugatti.html">
+            <div class="ItemSubMenuMarques">Bugatti</div>
+        </a>
+        <a href="Mclaren.html">
+            <div class="ItemSubMenuMarques">Mclaren</div>
+        </a>
+        <a href="Rimac.html">
+            <div class="ItemSubMenuMarques">Rimac</div>
+        </a>
+    </div>
+    <div id="SubMenuMes" hidden>
+        <a href="../Galeria.html">
+            <div class="ItemSubMenuMarques">Galeria</div>
+        </a>
+        <a href="../Contacte.html">
+            <div class="ItemSubMenuMarques">Contacte</div>
+        </a>
+
+    </div>
+    <!--*-------------------------*-->
+
+    <div id="banner">
+        <img id="imgBannerBugatti" src="../ImagesVideos/ferrari.svg" width="599" height="400" alt="">
+        <h1 class="TitleCar">FERRARI</h1>
+    </div>
+    <div id="ContentCardsModelCars">
+        <div id="ContainerCard">
+            <div class="ImgCar"><img src="../ImagesVideos/ImgCars/Ferrari/F88 GTO/HOR_XB1_Ferrari_288.png" alt=""
+                    srcset=""></div>
+            <h1 class="NameCar">288 GTO</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p>V8 a 90° F114B Biturbo de 2855 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>305 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>4.9s</p>
+            </div>
+            <a href="#" data-izimodal-open="#Modal288GTO">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="Modal288GTO" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Ferrari 288 GTO</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Altres noms:</b> Ferrari GTO</li>
+                    <li><b>Fabricant:</b> Ferrari</li>
+                    <li><b>Dissenyador:</b> Leonardo Fioravanti de Pininfarina i Nicola Materazzi</li>
+                    <li><b>Producció:</b> 272 unitats</li>
+                    <li><b>Periode:</b> 1984-1985</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Deportiu (S)</li>
+                    <li><b>Carrosseria:</b> Berlinetta de 2 portes</li>
+                    <li><b>Configuració:</b> Motor central posterior longitudinal, tracció posterior</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,29m</li>
+                    <li><b>Amplada:</b> 1,91m</li>
+                    <li><b>Altura:</b> 1,12m</li>
+                    <li><b>Distancia entre eixos:</b> 2,45m</li>
+                    <li><b>Via frontal:</b> 1,55m</li>
+                    <li><b>Via posterior:</b> 1.56m</li>
+                    <li><b>Pes:</b> 1160 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V8 a 90° F114B Biturbo de 2855 cm<sup>3</sup></li>
+                    <li><b>Potencia:</b> 400 CV</li>
+                    <li><b>Par motor:</b> 496 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discs ventilats 306 mm (Front.) 310 mm (Post.)</li>
+                    <li><b>Rodes:</b> 225/50 (Front.) 265/50 (Post.) VR16 plg (40,6 cm)</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó</li>
+                    <li><b>Transmissió:</b> Manual de 5 velocitats</li>
+                    <li><b>Suspensió:</b> Independent de doble forquilla, molls helicoïdals sobre amortidors telescòpics
+                        i barra estabilitzadora</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 305 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 4.9s</li>
+                    <li><b>Consum:</b> 0.31</li>
+                </ul>
+                <a href="../Concesionaris.html#FerrariSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="ImgCar"><img src="../ImagesVideos/ImgCars/Ferrari/F40/HOR_XB1_Ferrari_F40.png" alt="" srcset="">
+            </div>
+            <h1 class="NameCar">F40</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p>V8 DOHC biturbo de 90 graus de 2936 cc</p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>324 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>3.5s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalF40">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalF40" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Ferrari F40</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> Ferrari</li>
+                    <li><b>Dissenyador:</b> Pininfarina</li>
+                    <li><b>Fàbriques:</b> Italia, Maranello</li>
+                    <li><b>Producció:</b> 1311 unitats</li>
+                    <li><b>Periode:</b> 1987-1992</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Berlinetta de 2 portes</li>
+                    <li><b>Configuració:</b> Motor central posterior longitudinal, tracció posterior</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,43m</li>
+                    <li><b>Amplada:</b> 1,98m</li>
+                    <li><b>Altura:</b> 1,13m</li>
+                    <li><b>Distancia entre eixos:</b> 2,45m</li>
+                    <li><b>Via frontal:</b> 1,59m</li>
+                    <li><b>Via posterior:</b> 1.61m</li>
+                    <li><b>Pes:</b> 1100 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V8 a 90° tipus F120 a Biturbo de 2936 cm<sup>3</sup></li>
+                    <li><b>Potencia:</b> 478 CV</li>
+                    <li><b>Par motor:</b> 577 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discs ventilats a les 4 ruedas</li>
+                    <li><b>Rodes:</b> 245/40 ZR17 plg (43,2 cm) (Front.) 335/35 ZR17 plg (43,2 cm) (Post.)</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó</li>
+                    <li><b>Transmissió:</b> Manual de 5 velocitats</li>
+                    <li><b>Suspensió:</b> De doble forquilla, molls helicoïdals, amortidors hidràulics Koni i barra
+                        estabilitzadora</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 324 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 4.1s</li>
+                    <li><b>Consum:</b> 18,1 L/100 km (5,5 km/L; 13,0 mpgAm) (combinat) | 21,4 L/100 km (4,7 km/L; 11,0
+                        mpgAm) (urbá) | 14,7 L/100 km (6,8 km/L; 16,0 mpgAm) (Carretera)</li>
+                    <li><b>Cx:</b> 0.34</li>
+                </ul>
+                <a href="../Concesionaris.html#FerrariSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="ImgCar"><img src="../ImagesVideos/ImgCars/Ferrari/F50/HOR_XB1_Ferrari_F50_95.png" alt=""
+                    srcset=""></div>
+            <h1 class="NameCar">F50</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p>V8 a 90° F114B Biturbo de 2855 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>355 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>3.14s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalF50">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalF50" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Ferrari F50</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> Ferrari</li>
+                    <li><b>Dissenyador:</b> Lorenzo Ramaciotti​ i Pietro Camardella de Pininfarina</li>
+                    <li><b>Fàbriques:</b> Italia, Maranello</li>
+                    <li><b>Producció:</b> 349 unitats</li>
+                    <li><b>Periode:</b> 1995-1997</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Berlinetta o Targa, de 2 portes</li>
+                    <li><b>Configuració:</b> Motor central posterior longitudinal, tracció posterior</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,48m</li>
+                    <li><b>Amplada:</b> 1,98m</li>
+                    <li><b>Altura:</b> 1,12m</li>
+                    <li><b>Distancia entre eixos:</b> 2,58m</li>
+                    <li><b>Via frontal:</b> 1,62m</li>
+                    <li><b>Via posterior:</b> 1.60m</li>
+                    <li><b>Pes:</b> 1230-1350 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V12 a 65° Tipus F130B de 4698 cm<sup>3</sup></li>
+                    <li><b>Potencia:</b> 520 CV</li>
+                    <li><b>Par motor:</b> 48 kg·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discs ventilats Brembo de 4 pistons</li>
+                    <li><b>Rodes:</b> Eagle F1 GS Fiorano 245/35 ZR 18 x 8,5 plg (45,7 x 21,6 cm) (Front.) 335/30 ZR 18
+                        x
+                        13 plg (45,7 x 33,0 cm) (Post.) en reines d'aliatge de magnesi Speedline</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó</li>
+                    <li><b>Transmissió:</b> Manual de 6 velocitats</li>
+                    <li><b>Suspensió:</b>Independent, tipus push-rod, braços oscil·lants de longitud desigual i molls
+                        helicoïdals Bilstein amb amortidors telescòpics de gas</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 325 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 3.87s</li>
+                    <li><b>Consum:</b> 29,4 L/100 km (3,4 km/L; 8 mpgAm) (Ciutat) | 21,4 L/100 km (4,7 km/L; 11,0 mpgAm)
+                        (Carretera) | 26,1 L/100 km (3,8 km/L; 9 mpgAm) (combinat)</li>
+                    <li><b>Cx:</b> 0.372</li>
+                </ul>
+                <a href="../Concesionaris.html#FerrariSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="ImgCar"><img src="../ImagesVideos/ImgCars/Ferrari/Enzo/HOR_XB1_Ferrari_Enzo.png" alt=""
+                    srcset=""></div>
+            <h1 class="NameCar">Enzo</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p> V12 a 65° Tipo F140B de 5999 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>305 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>4.9s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalEnzo">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalEnzo" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Ferrari Enzo</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> Ferrari</li>
+                    <li><b>Dissenyador:</b> Lorenzo Ramaciotti​ i Pietro Camardella de Pininfarina</li>
+                    <li><b>Fàbriques:</b> Italia, Maranello</li>
+                    <li><b>Producció:</b> 349 unitats</li>
+                    <li><b>Periode:</b> 1995-1997</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Berlinetta de 2 portes dièdriques</li>
+                    <li><b>Configuració:</b> Motor central posterior longitudinal, tracció posterior</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,70m</li>
+                    <li><b>Amplada:</b> 2,03m</li>
+                    <li><b>Altura:</b> 1,14m</li>
+                    <li><b>Distancia entre eixos:</b> 2,65m</li>
+                    <li><b>Via frontal:</b> 1,66m</li>
+                    <li><b>Via posterior:</b> 1.65m</li>
+                    <li><b>Pes:</b> 1255 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V12 a 65° Tipus F140B de 5999 cm<sup>3</sup></li>
+                    <li><b>Potencia:</b> 660 CV</li>
+                    <li><b>Par motor:</b> 67 kg·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discs ventilats carboni-ceràmics Brembo amb ABS de 14,9 plg (378 mm)</li>
+                    <li><b>Rodes:</b> Potenza RE050A Scuderia 245/35 ZR 19 x 9 plg (48,3 x 22,9 cm) (Front.) 345/35 ZR
+                        19
+                        x 13 plg (48,3 x 33,0 cm) (Post.)</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó</li>
+                    <li><b>Transmissió:</b> Manual automatitzada Graziano F1 de 6 velocitats</li>
+                    <li><b>Suspensió:</b>Independent amb vareta d'empenta, doble forquilla de llarg desigual, molls
+                        helicoïdals i amortidors telescòpics amb control electrònic adaptatiu</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 355 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 3.14s</li>
+                    <li><b>Consum:</b> 29,4 L/100 km (3,4 km/L; 8 mpgAm) (Ciutat) | 19,6 L/100 km (5,1 km/L; 12,0 mpgAm)
+                        (Carretera) | 26,1 L/100 km (3,8 km/L; 9 mpgAm) (Combinat)</li>
+                    <li><b>Cx:</b> 0.372</li>
+                </ul>
+                <a href="../Concesionaris.html#FerrariSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <div id="ContentCardsModelCars2">
+        <div id="ContainerCard">
+            <div class="ImgCar"><img src="../ImagesVideos/ImgCars/Ferrari/Laferrari/HOR_XB1_Ferrari_LaFerrari.png"
+                    alt="" srcset=""></div>
+            <h1 class="NameCar">Laferrari</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p> V12 a 65° F140FE de 6262 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>372 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>2.4s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalLaFerrari">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalLaFerrari" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Ferrari LaFerrari</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> Ferrari</li>
+                    <li><b>Dissenyador:</b> Flavio Manzoni</li>
+                    <li><b>Fàbriques:</b> Italia, Maranello</li>
+                    <li><b>Producció:</b> 499 unitats</li>
+                    <li><b>Periode:</b> 2013-2016 (Cupé) | 2016-2018 (Aperta)</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Berlinetta de 2 portes dièdriques</li>
+                    <li><b>Propulsió:</b> Vehículo híbrid eléctric</li>
+                    <li><b>Configuració:</b> Motor central posterior longitudinal, tracció posterior</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,70m</li>
+                    <li><b>Amplada:</b> 1,99m</li>
+                    <li><b>Altura:</b> 1,11m</li>
+                    <li><b>Distancia entre eixos:</b> 2,65m</li>
+                    <li><b>Pes:</b> 1350 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V12 a 65° F140FE de 6262 cm<sup>3</sup></li>
+                    <li><b>Potencia:</b> 963 CV</li>
+                    <li><b>Par motor:</b> 900 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discs carboni-ceràmics Brembo amb ABS de 398 mm (15,7 plg) (Front.) 380 mm (15,0
+                        plg) (Post.)</li>
+                    <li><b>Rodes:</b> P-Zero 265/30 R19 plg (48,3 cm) (Front.) 345/30 R20 plg (50,8 cm) (Post.)</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó</li>
+                    <li><b>Transmissió:</b> Doble embragatge de 7 velocitats</li>
+                    <li><b>Suspensió:</b>Doble forquilla, multibraç i amortidors magnetoreològics amb solenoides bessons
+                    </li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 372 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 2.4s</li>
+                </ul>
+                <a href="../Concesionaris.html#FerrariSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="ImgCar"><img src="../ImagesVideos/ImgCars/Ferrari/F88 GTO/HOR_XB1_Ferrari_288.png" alt=""
+                    srcset=""></div>
+            <h1 class="NameCar">Laferrari Aperta</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p>V8 a 90° F114B Biturbo de 2855 cm <sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>305 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>4.9s</p>
+            </div>
+            <div class="BtnMoreinfo">Més informació</div>
+        </div>
+        <div id="ContainerCard">
+            <div class="ImgCar"><img
+                    src="../ImagesVideos/ImgCars/Ferrari/SF90 Stradale/FH5_Ferrari_SF90_Stradale_2020_Large.png" alt=""
+                    srcset=""></div>
+            <h1 class="NameCar">SF90 Stradale</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p>V8 a 90° Biturbo de 3990 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>305 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>4.9s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalSF90Stradale">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalSF90Stradale" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Ferrari SF90 Stradale</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> Ferrari</li>
+                    <li><b>Dissenyador:</b> Flavio Manzoni</li>
+                    <li><b>Fàbriques:</b> Italia, Maranello</li>
+                    <li><b>Producció:</b> 499 unitats</li>
+                    <li><b>Periode:</b> 2019-present</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Berlinetta de 2 portes</li>
+                    <li><b>Propulsió:</b> Híbrid elèctric endollable</li>
+                    <li><b>Configuració:</b> Motor central-darrere longitudinal, tracció a les quatre rodes</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,71m</li>
+                    <li><b>Amplada:</b> 1,97m</li>
+                    <li><b>Altura:</b> 1,18m</li>
+                    <li><b>Distancia entre eixos:</b> 2,65m</li>
+                    <li><b>Via frontal:</b> 1,65m</li>
+                    <li><b>Via posterior:</b> 1.67m</li>
+                    <li><b>Pes:</b> 1570 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V8 a 90° Biturbo de 3990 cm<sup>3</sup> (4 L); i 3 elèctrics</li>
+                    <li><b>Bateria:</b> D'ió de liti per al fre regeneratiu</li>
+                    <li><b>Autonomia:</b> 26 km (elèctric únicament)</li>
+                    <li><b>Carga de bateries:</b> 7,9 kWh</li>
+                    <li><b>Potencia:</b> 1000 CV</li>
+                    <li><b>Par motor:</b> 800 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discs ventilats amb ABS de 398 mm (15,7 plg) (Front.) 360 mm (14,2 plg) (Post.)
+                    </li>
+                    <li><b>Rodes:</b> Pilot Sport Cup2 ZR20 plg (50,8 cm) 255/35 (Front.) 315/30 (Post.)</li>
+                    <li><b>Direcció:</b> Pinyó i cremallera hidràulica</li>
+                    <li><b>Transmissió:</b> Doble embragatge de 8 velocitats</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 340 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 2.5s</li>
+                </ul>
+                <a href="../Concesionaris.html#FerrariSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="ImgCar"><img src="../ImagesVideos/ImgCars/Ferrari/F88 GTO/HOR_XB1_Ferrari_288.png" alt=""
+                    srcset=""></div>
+            <h1 class="NameCar">Daytona SP3</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p>V8 a 90° F114B Biturbo de 2855 cm <sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>305 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>4.9s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalDaytonaSP3">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalDaytonaSP3" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Ferrari Daytona SP3</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> Ferrari</li>
+                    <li><b>Dissenyador:</b> Flavio Manzoni del Centre d'Estil Ferrari</li>
+                    <li><b>Fàbriques:</b> Italia, Maranello</li>
+                    <li><b>Producció:</b> 599 unitats</li>
+                    <li><b>Periode:</b> 2022-present</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Plataforma:</b> Chasis LaFerrari Aperta</li>
+                    <li><b>Carrosseria:</b> Targa Top de 2 portes dièdriques</li>
+                    <li><b>Propulsió:</b> Híbrid elèctric endollable</li>
+                    <li><b>Configuració:</b> Motor central-darrere longitudinal, tracció a les quatre rodes</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,68m</li>
+                    <li><b>Amplada:</b> 2,05m</li>
+                    <li><b>Altura:</b> 1,14m</li>
+                    <li><b>Distancia entre eixos:</b> 2,65m</li>
+                    <li><b>Via frontal:</b> 1,69m</li>
+                    <li><b>Via posterior:</b> 1.63m</li>
+                    <li><b>Pes:</b> 1485 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V12 a 65° F140 HC de 6496 cm<sup>3</sup></li>
+                    <li><b>Potencia:</b> 840 CV</li>
+                    <li><b>Par motor:</b> 697 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discs ventilats carboni-ceràmics Brembo amb ABS 398 mm (15,7 plg) (Front.) 380 mm
+                        (15,0 plg) (Post.)
+                    </li>
+                    <li><b>Rodes:</b> P Zero Corsa 265/30 ZR 20 x 9 plg (50,8 x 22,9 cm) J (Front.) 345/30 ZR 21 x 12,5
+                        plg (53,3 x 31,8 cm) J (Post.)</li>
+                    <li><b>Transmissió:</b> Doble embragatge F1 de 7 velocitats</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 340 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 2.85s</li>
+                    <li><b>Consum:</b> 26,7 L/100 km (3,7 km/L; 8,8 mpgAm) (baix) | 14 L/100 km (7,1 km/L; 16,8 mpgAm)
+                        (alt) | 16,2 L/100 km (6,2 km/L; 14,5 mpgAm) (mixt) | 15,8 L/100 km (6,3 km/L; 14,9 mpgAm)
+                        (Mitg) | 14,5 L/100 km (6,9 km/L; 16,2 mpgAm) (Extra alt)</li>
+                </ul>
+                <a href="../Concesionaris.html#FerrariSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>© Copyright 2024-2025 Oriol Badia</footer>
+    <script src="https://kit.fontawesome.com/008e638cf2.js" crossorigin="anonymous"></script>
+    <script src="../Plugins/AOS/AOS.js"></script>
+    <script type="text/javascript" src="../Plugins/FullPage/node_modules/fullpage.js/dist/fullpage.js"></script>
+    <script src="../Plugins/IziModal/node_modules/izimodal/js/iziModal.js" type="text/javascript"></script>
+    <script src="../Plugins/IziModal/PersonalIziModal.js"></script>
+    <script src="../Plugins/SweetAlert/sweetalert2.all.min.js"></script>
+    <script src="../Plugins/SweetAlert/PersonalSweetAlert.js"></script>
+    <script src="../Plugins/SweetAlert/sweetalert2@11.js"></script>
+    <script src="../Plugins/Swiper/swiper-bundle.min.js"></script>
+    <script src="../Plugins/Tippy/Development/popper.min.js"></script>
+    <script src="../Plugins/Tippy/Development/tippy-bundle.umd.js"></script>
+    <script src="../Plugins/Tippy/Production/core@2.js"></script>
+    <script src="../Plugins/Tippy/Production/tippy@6.js"></script>
+    <script src="../Plugins/Tippy/PersonalTippy.js"></script>
+    <script src="../Programming/index.js"></script>
+</body>
+
+</html>

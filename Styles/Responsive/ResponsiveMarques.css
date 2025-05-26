@@ -1,0 +1,880 @@
+@media (max-width: 2560px) {
+#BugattiBG {
+    background-image: url(../../ImagesVideos/bg_Bugatti.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
+
+#FerrariBG {
+    background-image: url(../../ImagesVideos/bg_Ferrari.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    backdrop-filter: blur(5px);
+}
+
+#KoenigseggBG {
+    background-image: url(../../ImagesVideos/bg_Koenigsegg.jpg);
+    background-size: cover;
+    background-position: bottom;
+    backdrop-filter: blur(5px);
+}
+
+#LamborghiniBG {
+    background-image: url(../../ImagesVideos/bg_Lamborghini.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    backdrop-filter: blur(5px);
+}
+
+#MclarenBG {
+    background-image: url(../../ImagesVideos/bg_Mclaren.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
+
+#RimacBG {
+    background-image: url(../../ImagesVideos/bg_Rimac.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
+}
+
+@media (max-width: 898px) {
+    #NavContainer {
+        width: 100%;
+        display: flex;
+        /* position: fixed; */
+        justify-items: center;
+        justify-content: space-around;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 2%;
+        color: white;
+        clip-path: polygon(5% 15%,
+                95% 15%,
+                100% 50%,
+                95% 85%,
+                5% 85%,
+                0% 50%);
+    }
+
+    #SubMenuMarques {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2.5% 0% 3.5% 0%;
+        gap: 5%;
+        left: 20.3%;
+        top: 7.1%;
+        width: 20%;
+        color: white;
+        text-align: center;
+        height: 25%;
+        clip-path: polygon(50% 0%, 55% 6%, 100% 6%, 100% 100%, 0% 100%, 0% 6%, 45% 6%);
+    }
+
+    #SubMenuMes {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2% 0% 1% 0%;
+        gap: 5%;
+        left: 85%;
+        top: 7.1%;
+        width: 10%;
+        color: white;
+        text-align: center;
+        height: 10%;
+        clip-path: polygon(50% 0%, 55% 6%, 100% 6%, 100% 100%, 0% 100%, 0% 6%, 45% 6%);
+    }
+
+    .titleHome {
+        color: white;
+        /* background-color: antiquewhite; */
+        font-size: 8rem;
+        font-family: "Quantico", serif;
+        font-weight: 600;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    .SubTitleHome {
+        font-family: "Jura", serif;
+        font-weight: lighter;
+        color: white;
+        text-align: center;
+        margin-left: 17%;
+    }
+}
+
+@media (max-width: 850px) {
+    #NavContainer {
+        width: 100%;
+        display: flex;
+        /* position: fixed; */
+        justify-items: center;
+        justify-content: space-around;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 2%;
+        color: white;
+        clip-path: polygon(5% 15%,
+                95% 15%,
+                100% 50%,
+                95% 85%,
+                5% 85%,
+                0% 50%);
+    }
+
+    #SubMenuMarques {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2.5% 0% 3.5% 0%;
+        gap: 5%;
+        left: 20.3%;
+        top: 7.1%;
+        width: 20%;
+        color: white;
+        text-align: center;
+        height: 25%;
+        clip-path: polygon(50% 0%, 55% 6%, 100% 6%, 100% 100%, 0% 100%, 0% 6%, 45% 6%);
+    }
+
+    #SubMenuMes {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2% 0% 1% 0%;
+        gap: 5%;
+        left: 85%;
+        top: 7.1%;
+        width: 10%;
+        color: white;
+        text-align: center;
+        height: 10%;
+        clip-path: polygon(50% 0%, 55% 6%, 100% 6%, 100% 100%, 0% 100%, 0% 6%, 45% 6%);
+    }
+
+    .titleHome {
+        color: white;
+        /* background-color: antiquewhite; */
+        font-size: 8rem;
+        font-family: "Quantico", serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .SubTitleHome {
+        font-family: "Jura", serif;
+        font-weight: lighter;
+        color: white;
+        text-align: center;
+        margin-right: 4%;
+    }
+}
+
+@media (max-width: 839px) {
+
+    html,
+    #BodyIndex {
+        width: 90%;
+        /* height: 100%; */
+    }
+
+    header {
+        /* background-color: aquamarine; */
+        /* display: none; */
+        justify-content: center;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+    }
+
+    #NavContainer {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 12%;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 2%;
+        color: white;
+        clip-path: none;
+        display: none;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #NavContainer.show-menu {
+        display: flex;
+    }
+
+
+
+    .logomenu {
+        display: none;
+    }
+
+    #SubMenuMarques {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2.5% 0% 3.5% 0%;
+        gap: 5%;
+        left: 75.3%;
+        top: 8.1%;
+        width: 20%;
+        color: white;
+        text-align: center;
+        height: 25%;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    #SubMenuMes {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2% 0% 1% 0%;
+        gap: 5%;
+        left: 85%;
+        top: 7.1%;
+        width: 10%;
+        color: white;
+        text-align: center;
+        height: 10%;
+        clip-path: polygon(50% 0%, 55% 6%, 100% 6%, 100% 100%, 0% 100%, 0% 6%, 45% 6%);
+    }
+
+    .titleHome {
+        color: white;
+        /* background-color: antiquewhite; */
+        font-size: 5rem;
+        font-family: "Quantico", serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .SubTitleHome {
+        font-family: "Jura", serif;
+        font-weight: lighter;
+        color: white;
+        text-align: center;
+        margin-right: 4%;
+    }
+
+    .ContainerMenuToggle {
+        width: 100%;
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        clip-path: polygon(45% 15%,
+                55% 15%,
+                60% 50%,
+                55% 85%,
+                45% 85%,
+                40% 50%);
+        padding: 3%;
+        margin-left: 0%;
+    }
+
+    .MenuToggle {
+        font-size: 200%;
+        color: white;
+    }
+}
+
+@media (max-width: 520px) {
+
+
+    html,
+    #BodyIndex {
+        width: 90%;
+        /* height: 100%; */
+    }
+
+    header {
+        /* background-color: aquamarine; */
+        /* display: none; */
+        justify-content: center;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+    }
+
+    #NavContainer {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 13%;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 2%;
+        color: white;
+        clip-path: none;
+        display: none;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #NavContainer.show-menu {
+        display: flex;
+    }
+
+
+
+    .logomenu {
+        display: none;
+    }
+
+    #SubMenuMarques {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2.5% 0% 3.5% 0%;
+        gap: 5%;
+        left: 75.3%;
+        top: 8.1%;
+        width: 20%;
+        color: white;
+        text-align: center;
+        height: 25%;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    #SubMenuMes {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2% 0% 1% 0%;
+        gap: 5%;
+        left: 85%;
+        top: 7.1%;
+        width: 10%;
+        color: white;
+        text-align: center;
+        height: 10%;
+        clip-path: polygon(50% 0%, 55% 6%, 100% 6%, 100% 100%, 0% 100%, 0% 6%, 45% 6%);
+    }
+
+    .titleHome {
+        color: white;
+        /* background-color: antiquewhite; */
+        font-size: 5rem;
+        font-family: "Quantico", serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .SubTitleHome {
+        font-family: "Jura", serif;
+        font-weight: lighter;
+        color: white;
+        text-align: center;
+        margin-right: 4%;
+    }
+
+    .ContainerMenuToggle {
+        width: 100%;
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        clip-path: polygon(45% 15%,
+                55% 15%,
+                60% 50%,
+                55% 85%,
+                45% 85%,
+                40% 50%);
+        padding: 3%;
+    }
+
+    .MenuToggle {
+        font-size: 200%;
+        color: white;
+    }
+}
+
+@media (max-width: 442px) {
+
+
+    html,
+    #BodyIndex {
+        width: 90%;
+        /* height: 100%; */
+    }
+
+    .ContainerContentBody1 {
+        position: absolute;
+        bottom: 45%;
+        right: 15%;
+    }
+
+    header {
+        /* background-color: aquamarine; */
+        /* display: none; */
+        justify-content: center;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+    }
+
+    #NavContainer {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 17%;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 2%;
+        color: white;
+        clip-path: none;
+        display: none;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #NavContainer.show-menu {
+        display: flex;
+    }
+
+
+
+    .logomenu {
+        display: none;
+    }
+
+    #SubMenuMarques {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2.5% 0% 3.5% 0%;
+        gap: 5%;
+        left: 75.3%;
+        top: 8.1%;
+        width: 20%;
+        color: white;
+        text-align: center;
+        height: 25%;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    #SubMenuMes {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2% 0% 1% 0%;
+        gap: 5%;
+        left: 85%;
+        top: 7.1%;
+        width: 10%;
+        color: white;
+        text-align: center;
+        height: 10%;
+        clip-path: polygon(50% 0%, 55% 6%, 100% 6%, 100% 100%, 0% 100%, 0% 6%, 45% 6%);
+    }
+
+    .titleHome {
+        color: white;
+        /* background-color: antiquewhite; */
+        font-size: 5rem;
+        font-family: "Quantico", serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .SubTitleHome {
+        font-family: "Jura", serif;
+        font-weight: lighter;
+        color: white;
+        text-align: center;
+    }
+
+    .ContainerMenuToggle {
+        width: 100%;
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        clip-path: polygon(45% 15%,
+                55% 15%,
+                60% 50%,
+                55% 85%,
+                45% 85%,
+                40% 50%);
+        padding: 3%;
+    }
+
+    .MenuToggle {
+        font-size: 200%;
+        color: white;
+    }
+}
+
+@media (max-width: 402px) {
+
+
+    html,
+    #BodyIndex {
+        width: 90%;
+        /* height: 100%; */
+    }
+
+    .ContainerContentBody1 {
+        position: absolute;
+        bottom: 45%;
+        right: 12%;
+    }
+
+    header {
+        /* background-color: aquamarine; */
+        /* display: none; */
+        justify-content: center;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+    }
+
+    #NavContainer {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 17%;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 2%;
+        color: white;
+        clip-path: none;
+        display: none;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #NavContainer.show-menu {
+        display: flex;
+    }
+
+
+
+    .logomenu {
+        display: none;
+    }
+
+    #SubMenuMarques {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2.5% 0% 3.5% 0%;
+        gap: 5%;
+        left: 75.3%;
+        top: 8.1%;
+        width: 20%;
+        color: white;
+        text-align: center;
+        height: 25%;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    #SubMenuMes {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2% 0% 1% 0%;
+        gap: 5%;
+        left: 85%;
+        top: 7.1%;
+        width: 10%;
+        color: white;
+        text-align: center;
+        height: 10%;
+        clip-path: polygon(50% 0%, 55% 6%, 100% 6%, 100% 100%, 0% 100%, 0% 6%, 45% 6%);
+    }
+
+    .titleHome {
+        color: white;
+        /* background-color: antiquewhite; */
+        font-size: 5rem;
+        font-family: "Quantico", serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .SubTitleHome {
+        font-family: "Jura", serif;
+        font-weight: lighter;
+        color: white;
+        text-align: center;
+    }
+
+    .ContainerMenuToggle {
+        width: 100%;
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        clip-path: polygon(45% 15%,
+                55% 15%,
+                60% 50%,
+                55% 85%,
+                45% 85%,
+                40% 50%);
+        padding: 3%;
+    }
+
+    .MenuToggle {
+        font-size: 200%;
+        color: white;
+    }
+}
+
+@media (max-width: 360px) {
+
+
+    html,
+    #BodyIndex {
+        width: 90%;
+        /* height: 100%; */
+    }
+
+    .ContainerContentBody1 {
+        position: absolute;
+        bottom: 45%;
+        right: 15%;
+    }
+
+    header {
+        /* background-color: aquamarine; */
+        /* display: none; */
+        justify-content: center;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+    }
+
+    #NavContainer {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 18%;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 2%;
+        color: white;
+        clip-path: none;
+        display: none;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #NavContainer.show-menu {
+        display: flex;
+    }
+
+
+
+    .logomenu {
+        display: none;
+    }
+
+    #SubMenuMarques {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2.5% 0% 3.5% 0%;
+        gap: 5%;
+        left: 75.3%;
+        top: 8.1%;
+        width: 20%;
+        color: white;
+        text-align: center;
+        height: 25%;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    #SubMenuMes {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2% 0% 1% 0%;
+        gap: 5%;
+        left: 85%;
+        top: 7.1%;
+        width: 10%;
+        color: white;
+        text-align: center;
+        height: 10%;
+        clip-path: polygon(50% 0%, 55% 6%, 100% 6%, 100% 100%, 0% 100%, 0% 6%, 45% 6%);
+    }
+
+    .titleHome {
+        color: white;
+        /* background-color: antiquewhite; */
+        font-size: 4rem;
+        font-family: "Quantico", serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .SubTitleHome {
+        font-family: "Jura", serif;
+        font-weight: lighter;
+        color: white;
+        text-align: center;
+    }
+
+    .ContainerMenuToggle {
+        width: 100%;
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        clip-path: polygon(45% 15%,
+                55% 15%,
+                60% 50%,
+                55% 85%,
+                45% 85%,
+                40% 50%);
+        padding: 3%;
+    }
+
+    .MenuToggle {
+        font-size: 200%;
+        color: white;
+    }
+}
+
+@media (max-width: 338px) {
+
+
+    html,
+    #BodyIndex {
+        width: 90%;
+        /* height: 100%; */
+    }
+
+    .ContainerContentBody1 {
+        position: absolute;
+        bottom: 45%;
+        right: 12%;
+    }
+
+    header {
+        /* background-color: aquamarine; */
+        /* display: none; */
+        justify-content: center;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+    }
+
+    #NavContainer {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 17%;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 2%;
+        color: white;
+        clip-path: none;
+        display: none;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #NavContainer.show-menu {
+        display: flex;
+    }
+
+
+
+    .logomenu {
+        display: none;
+    }
+
+    #SubMenuMarques {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2.5% 0% 3.5% 0%;
+        gap: 5%;
+        left: 75.3%;
+        top: 8.1%;
+        width: 20%;
+        color: white;
+        text-align: center;
+        height: 25%;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    #SubMenuMes {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2% 0% 1% 0%;
+        gap: 5%;
+        left: 85%;
+        top: 7.1%;
+        width: 10%;
+        color: white;
+        text-align: center;
+        height: 10%;
+        clip-path: polygon(50% 0%, 55% 6%, 100% 6%, 100% 100%, 0% 100%, 0% 6%, 45% 6%);
+    }
+
+    .titleHome {
+        color: white;
+        /* background-color: antiquewhite; */
+        font-size: 4rem;
+        font-family: "Quantico", serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .SubTitleHome {
+        font-family: "Jura", serif;
+        font-weight: lighter;
+        color: white;
+        text-align: center;
+    }
+
+    .ContainerMenuToggle {
+        width: 100%;
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        clip-path: polygon(45% 15%,
+                55% 15%,
+                60% 50%,
+                55% 85%,
+                45% 85%,
+                40% 50%);
+        padding: 3%;
+    }
+
+    .MenuToggle {
+        font-size: 200%;
+        color: white;
+    }
+}
+
+/*-------------------------------------*/

@@ -1,0 +1,107 @@
+/*ESTILS RESPONSIVE INDEX.HTML*/
+@media (max-width: 898px) {
+    #NavContainer {
+        width: 100%;
+        display: flex;
+        /* position: fixed; */
+        justify-items: center;
+        justify-content: space-around;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 2%;
+        color: white;
+        clip-path: polygon(5% 15%,
+                95% 15%,
+                100% 50%,
+                95% 85%,
+                5% 85%,
+                0% 50%);
+    }
+
+    #SubMenuMarques {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2.5% 0% 3.5% 0%;
+        gap: 5%;
+        left: 20.3%;
+        top: 7.1%;
+        width: 20%;
+        color: white;
+        text-align: center;
+        height: 25%;
+        clip-path: polygon(50% 0%, 55% 6%, 100% 6%, 100% 100%, 0% 100%, 0% 6%, 45% 6%);
+    }
+
+    #SubMenuMes {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2% 0% 1% 0%;
+        gap: 5%;
+        left: 85%;
+        top: 7.1%;
+        width: 10%;
+        color: white;
+        text-align: center;
+        height: 10%;
+        clip-path: polygon(50% 0%, 55% 6%, 100% 6%, 100% 100%, 0% 100%, 0% 6%, 45% 6%);
+    }
+
+}
+
+@media (max-width: 850px) {
+    #NavContainer {
+        width: 100%;
+        display: flex;
+        /* position: fixed; */
+        justify-items: center;
+        justify-content: space-around;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 2%;
+        color: white;
+        clip-path: polygon(5% 15%,
+                95% 15%,
+                100% 50%,
+                95% 85%,
+                5% 85%,
+                0% 50%);
+    }
+
+    #SubMenuMarques {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2.5% 0% 3.5% 0%;
+        gap: 5%;
+        left: 20.3%;
+        top: 7.1%;
+        width: 20%;
+        color: white;
+        text-align: center;
+        height: 25%;
+        clip-path: polygon(50% 0%, 55% 6%, 100% 6%, 100% 100%, 0% 100%, 0% 6%, 45% 6%);
+    }
+
+    #SubMenuMes {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2% 0% 1% 0%;
+        gap: 5%;
+        left: 85%;
+        top: 7.1%;
+        width: 10%;
+        color: white;
+        text-align: center;
+        height: 10%;
+        clip-path: polygon(50% 0%, 55% 6%, 100% 6%, 100% 100%, 0% 100%, 0% 6%, 45% 6%);
+    }
+
+
+}
+
+/*-------------------------------------*/

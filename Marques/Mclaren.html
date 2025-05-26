@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward_ios" />
+    <!--* FONTS GOOGLE *-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Saira -->
+    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Chakra | Iceberg | Tulpen -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Iceberg&family=Tulpen+One&display=swap"
+        rel="stylesheet">
+
+    <!-- Orbitron -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <!-- Orbitron -->
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+
+    <!-- Quantico -->
+    <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Audiowide -->
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+    <!-- Jura -->
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Tourney -->
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Tourney -->
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap"
+        rel="stylesheet">
+    <!--*------------------------------------------------------------------------*-->
+
+    <!--* FRAMEWORKS Y PLUGINS LINKS *-->
+    <link rel="stylesheet" href="../Frameworks/Bootstrap/css/bootstrap.min.css">
+    <script src="../Frameworks/Bootstrap/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="../Frameworks/Jquery/jquery.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../Plugins/FullPage/node_modules/fullpage.js/dist/fullpage.css" />
+    <link rel="stylesheet" href="../Plugins/IziModal/node_modules/izimodal/css/iziModal.css">
+    <script src="../Plugins/Parsley/parsley.min.js"></script>
+    <script src="../Plugins/Parsley/LanguagesParsley/ca.js"></script>
+    <link rel="stylesheet" href="../Plugins/SweetAlert/sweetalert2.min.css">
+    <link rel="stylesheet" href="../Plugins/Swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../Plugins/Tippy/Animations/scale.css">
+    <!--*------------------------------------------------------------------------*-->
+
+    <link rel="stylesheet" href="StylesMarques/StylesMarques.css">
+    <link rel="stylesheet" href="../Styles/Responsive/ResponsiveMarques.css">
+    <link rel="shortcut icon" href="../ImagesVideos/LOGOWEB.png" type="image/x-icon">
+    <title>Hypercars | Mclaren</title>
+</head>
+
+<body id="MclarenBG">
+    <!--* MENÚ *-->
+    <header>
+        <nav id="NavContainer">
+
+            <ul class="MenuItem">
+                <li id="IniciMenuItem"><a href="../Index.html">Inici</a></li>
+            </ul>
+            <ul id="active" class="MenuItem">
+                <li id="MenuTriggerMarques" class="MarquesMenuItem">Marques</li>
+            </ul>
+            <img src="../ImagesVideos/LOGOWEB.png" width="35" height="35" alt="">
+            <ul class="MenuItem">
+                <li id="ConcesionariMenuItem"><a href="../Concesionaris.html">Concesionaris</a></li>
+            </ul>
+            <ul class="MenuItem">
+                <li id="MenuTriggerMes" class="MesMenuItem">Més</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="ContainerMenuToggle">
+        <div class="MenuToggle"><i class="fa-solid fa-bars"></i></div>
+    </div>
+    <div id="SubMenuMarques" hidden>
+        <a href="Ferrari.html">
+            <div class="ItemSubMenuMarques">Ferrari</div>
+        </a>
+        <a href="Lamborghini.html">
+            <div class="ItemSubMenuMarques">Lamborghini</div>
+        </a>
+        <a href="Koeniggseg.html">
+            <div class="ItemSubMenuMarques">Koeniggseg</div>
+        </a>
+        <a href="Bugatti.html">
+            <div class="ItemSubMenuMarques">Bugatti</div>
+        </a>
+        <a href="#">
+            <div class="ItemSubMenuMarques">Mclaren</div>
+        </a>
+        <a href="Rimac.html">
+            <div class="ItemSubMenuMarques">Rimac</div>
+        </a>
+    </div>
+    <div id="SubMenuMes" hidden>
+        <a href="../Galeria.html">
+            <div class="ItemSubMenuMarques">Galeria</div>
+        </a>
+        <a href="../Contacte.html">
+            <div class="ItemSubMenuMarques">Contacte</div>
+        </a>
+
+    </div>
+    <!--*-------------------------*-->
+
+    <div id="banner">
+        <img id="imgBannerBugatti" src="../ImagesVideos/mclaren-svgrepo-com.svg" width="599" height="400" alt="">
+        <h1 class="TitleCar">MCLAREN</h1>
+    </div>
+    <div id="ContentCardsModelCars">
+        <div id="ContainerCard">
+            <div class="Imgmodel"><img src="../ImagesVideos/ImgCars/Mclaren/F1/HOR_XB1_McLaren_F1.png" alt="" srcset="">
+            </div>
+            <h1 class="Namemodel">F1</h1>
+            <hr>
+            <div class="Infomodel">
+                <h3>Motor</h3>
+                <p>V12 a 60° BMW S70/2 de 6064 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>391 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>3.2s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalF1">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalF1" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Mclaren F1</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> McLaren Automotive</li>
+                    <li><b>Dissenyador:</b> Gordon Murray (enginyer)
+                        Peter Stevens (carrosser)</li>
+                    <li><b>Fàbriques:</b> Inglaterra: Woking</li>
+                    <li><b>Producció:</b> 106 unitats</li>
+                    <li><b>Periode:</b> 1992-1998</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Cupè de 2 portes dièdriques</li>
+                    <li><b>Configuració:</b> Motor central-posterior longitudinal, tracció posterior</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,28m</li>
+                    <li><b>Amplada:</b> 1,82m</li>
+                    <li><b>Altura:</b> 1,14m</li>
+                    <li><b>Distancia entre eixos:</b> 2,71m</li>
+                    <li><b>Via Frontal:</b> 1,56m</li>
+                    <li><b>Via Posterior</b> 1,47m</li>
+                    <li><b>Maleter</b> 227-283 L</li>
+                    <li><b>Pes:</b> 1062-1140 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V12 a 60° BMW S70/2 de 6064 cm<sup>3</sup></li>
+                    <li><b>Potencia:</b> 627-680 CV</li>
+                    <li><b>Par motor:</b> 651-705 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b>Discs ventilats i perforats en creu 332 mm (13,1 plg) (Front.) 305 mm (12 plg)
+                        (Post.)</li>
+                    <li><b>Rodes:</b>F1 P235/45ZR-17 x 9 plg (43,2 x 22,9 cm) (Front.) P315/45ZR-17 x 11,5 plg (43,2 x
+                        29,2 cm) (Post.)</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó sense assistència</li>
+                    <li><b>Transmissió:</b> Manual de 6 velocitats transversal amb embragatge de 3 discos</li>
+                    <li><b>Suspensió:</b> Centre de tall pla de terra, doble forquilla amb amortidors d'aliatge lleuger
+                        i molls helicoïdals coaxials </li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 391 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 3.2s</li>
+                    <li><b>Consum:</b> 23,4 mpgAm (10,1 L/100 km; 9,9 km/L) (Millor) | 15,2 mpgAm (15,5 L/100 km; 6,5
+                        km/L) (Promitg) | 9 mpgAm (26,1 L/100 km; 3,8 km/L) (Pitjor)</li>
+                    <li><b>Cx:</b> 0.32</li>
+                </ul>
+                <a href="../Concesionaris.html#MclarenSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="Imgmodel"><img src="../ImagesVideos/ImgCars/Mclaren/P1/HOR_XB1_McLaren_P1.png" alt="" srcset="">
+            </div>
+            <h1 class="Namemodel">P1</h1>
+            <hr>
+            <div class="Infomodel">
+                <h3>Motor</h3>
+                <p>V8 a 90° M838T Biturbo de 3799 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>362 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>2.4s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalP1">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalP1" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Mclaren P1</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> McLaren Automotive</li>
+                    <li><b>Dissenyador:</b> Frank Stephenson1 i Robert Melville</li>
+                    <li><b>Fàbriques:</b> Inglaterra, Woking, Surrey</li>
+                    <li><b>Producció:</b> 375 unitats</li>
+                    <li><b>Periode:</b> 2013-2015</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Plataforma:</b> Monocasc de fibra de carboni MonoCage</li>
+                    <li><b>Carrosseria:</b> Cupè de 2 portes dièdriques</li>
+                    <li><b>Propulsió:</b> Híbrid elèctric endollable</li>
+                    <li><b>Configuració:</b> Motor central-posterior longitudinal, tracció posterior</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,58m</li>
+                    <li><b>Amplada:</b> 1,60m</li>
+                    <li><b>Altura:</b> 1,14m</li>
+                    <li><b>Distancia entre eixos:</b> 2,71m</li>
+                    <li><b>Via Frontal:</b> 1,56m</li>
+                    <li><b>Via Posterior</b> 1,47m</li>
+                    <li><b>Pes:</b> 1395-1490 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V8 a 90° M838T Biturbo de 3799 cm<sup>3</sup></li>
+                    <li><b>Potencia:</b> 916 CV</li>
+                    <li><b>Par motor:</b> 900 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b>Discs ventilats carboni-ceràmics Akebono de 390 mm (15,4 plg) (Front.) 380 mm (15,0
+                        plg) (Post.)</li>
+                    <li><b>Rodes:</b>P Zero Corsa 245/35 ZR 19 x 9 plg (48,3 x 22,9 cm) (Front.) 315/30 ZR 20 x 11,5 plg
+                        (50,8 x 29,2 cm) (Post.)</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó hidràulica</li>
+                    <li><b>Transmissió:</b> Doble embragatge SSG de 7 velocitats</li>
+                    <li><b>Suspensió:</b> Braços de control amb molls helicoïdals, amortidors ajustables i barra
+                        estabilitzadora hidràulica </li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 362 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 2.4s</li>
+                    <li><b>Consum:</b> 8,3 L/100 km (12,0 km/L; 28,3 mpgAm) (Combinat)</li>
+                </ul>
+                <a href="../Concesionaris.html#MclarenSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="Imgmodel"><img src="../ImagesVideos/ImgCars/Mclaren/Sabre/FH5_McLaren_Sabre.png" alt=""
+                    srcset=""></div>
+            <h1 class="Namemodel">Sabre</h1>
+            <hr>
+            <div class="Infomodel">
+                <h3>Motor</h3>
+                <p>V8 a 90° Biturbo de 3994 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>351 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>2.9s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalSabre">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalSabre" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Mclaren P1</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> McLaren Automotive</li>
+                    <li><b>Fàbriques:</b> Inglaterra, Woking, Surrey</li>
+                    <li><b>Producció:</b> 15 unitats</li>
+                    <li><b>Periode:</b> 2020-present</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Plataforma:</b> Monocasc de fibra de carboni MonoCage III</li>
+                    <li><b>Carrosseria:</b> Cupè de 2 portes dièdriques</li>
+                    <li><b>Configuració:</b> Motor central-posterior longitudinal, tracció posterior</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li>-</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V8 a 90° Biturbo de 3994 cm<sup>3</sup></li>
+                    <li><b>Potencia:</b> 835 CV</li>
+                    <li><b>Par motor:</b> 800 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li>-</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 351 km/h</li>
+                </ul>
+                <a href="../Concesionaris.html#MclarenSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="Imgmodel"><img src="../ImagesVideos/ImgCars/Mclaren/Speedtail/FH5_McLaren_Speedtail.png" alt=""
+                    srcset=""></div>
+            <h1 class="Namemodel">Speedtail</h1>
+            <hr>
+            <div class="Infomodel">
+                <h3>Motor</h3>
+                <p> V8 a 90 º M840T Biturbo, sistema híbrid</p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>403 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>2.9s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalSpeedtail">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalSpeedtail" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Mclaren Speedtail</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> McLaren Automotive</li>
+                    <li><b>Fàbriques:</b> Inglaterra, Woking, Surrey</li>
+                    <li><b>Producció:</b> 106 unitats</li>
+                    <li><b>Periode:</b> 2019</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Cupè de 2 portes dièdriques</li>
+                    <li><b>Propulsió:</b> Vehicle híbrid elèctric endollable</li>
+                    <li><b>Configuració:</b> Motor central-posterior longitudinal, tracció posterior</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 5,13m</li>
+                    <li><b>Altura:</b> 1,12m</li>
+                    <li><b>Pes:</b> 1430 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V8 a 90º M840T Biturbo, en paral·lel amb sistema híbrid</li>
+                    <li><b>Potencia:</b>230 kW (e-motor) | 556 kW (Gasolina) | 773 kW (Combinat)</li>
+                    <li><b>Par motor:</b> 347 N·m (e-motor) | 800 N·m (Gasolina) | 1150 N·m (Combinat)</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discs ventilats amb ABS</li>
+                    <li><b>Rodes:</b> P-Zero 235/35 ZR 20 92Y (Front.) 315/30 ZR 21 105Y (Post.)</li>
+                    <li><b>Direcció:</b> Pinyó i cremallera assistida</li>
+                    <li><b>Transmissió:</b> Semi-automàtica de doble embragatge Graziano de 7 velocitats</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 403 km/h</li>
+                </ul>
+                <a href="../Concesionaris.html#MclarenSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <div id="ContentCardsModelCars2">
+        <div id="ContainerCard">
+            <div class="Imgmodel"><img
+                    src="../ImagesVideos/ImgCars/Mclaren/650s spider/FH5_McLaren_650S_Spider_2014_Large.png" alt=""
+                    srcset=""></div>
+            <h1 class="Namemodel">650S Spider</h1>
+            <hr>
+            <div class="Infomodel">
+                <h3>Motor</h3>
+                <p>V8 a 90° Biturbo de 3799 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>329 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>3s</p>
+            </div>
+            <a href="#" data-izimodal-open="#Modal650Sspider">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="Modal650Sspider" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Mclaren 650S spider</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> McLaren Automotive</li>
+                    <li><b>Periode:</b> 2014-2017</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li>-</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <ul>
+                        <li><b>Altura:</b> 1,19m</li>
+                        <li><b>Distancia entre eixos:</b> 2,67m</li>
+                        <li><b>Pes:</b> 1469 kg</li>
+                    </ul>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V8 a 90º M840T Biturbo, en paral·lel amb sistema híbrid</li>
+                    <li><b>Potencia:</b>230 kW (e-motor) | 556 kW (Gasolina) | 773 kW (Combinat)</li>
+                    <li><b>Par motor:</b> 347 N·m (e-motor) | 800 N·m (Gasolina) | 1150 N·m (Combinat)</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Transmissió:</b> 7-velocitats dual-clutch</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 329 km/h</li>
+                </ul>
+                <a href="../Concesionaris.html#MclarenSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="Imgmodel"><img src="../ImagesVideos/ImgCars/Mclaren/Artura/FH5_McLaren_Artura.png" alt=""
+                    srcset=""></div>
+            <h1 class="Namemodel">Artura</h1>
+            <hr>
+            <div class="Infomodel">
+                <h3>Motor</h3>
+                <p> V6 a 120° M630 Biturbo de 2993 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>330 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>3s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalArtura">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalArtura" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Mclaren Artura</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> McLaren Automotive</li>
+                    <li><b>Dissenyador:</b> Robert Melville</li>
+                    <li><b>Fàbriques:</b> Inglaterra: Woking</li>
+                    <li><b>Producció:</b> 106 unitats</li>
+                    <li><b>Periode:</b> 2021-present</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Plataforma:</b> McLaren Carbon Lightweight Architecture (MCLA)</li>
+                    <li><b>Carrosseria:</b> Cupè de 2 portes dièdriques</li>
+                    <li><b>Configuració:</b> Motor central-posterior longitudinal, tracció posterior</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,53m</li>
+                    <li><b>Amplada:</b> 1,91m</li>
+                    <li><b>Altura:</b> 1,19m</li>
+                    <li><b>Distancia entre eixos:</b> 2,64m</li>
+                    <li><b>Via Frontal:</b> 1,65m</li>
+                    <li><b>Via Posterior</b> 1,61m</li>
+                    <li><b>Maleter</b> 160L</li>
+                    <li><b>Pes:</b> 1395 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b>V6 a 120° M630 Biturbo de 2993 cm<sup>3</sup> (3 L; 182,6 plg<sup>3</sup>)</li>
+                    <li><b>Bateria:</b>D'ió de liti refrigerada per aigua de 7,4 kWh (27 MJ)</li>
+                    <li><b>Autonomia:</b>30 km</li>
+                    <li><b>Potencia:</b> 689 CV</li>
+                    <li><b>Par motor:</b> 720 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b>Discs ventilats carboni-ceràmics amb ABS de 390 mm (15,4 plg) (Front.) 380 mm (15,0
+                        plg) (Post.)</li>
+                    <li><b>Rodes:</b>P-Zero Corsa 235/35 R19 x 9 plg (48,3 x 22,9 cm) J (Front.) 295/35 R20 x 11 plg
+                        (50,8
+                        x 27,9 cm) J (Post.)</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó electrohidràulica</li>
+                    <li><b>Transmissió:</b> De doble embragatge SSG de 8 velocitats amb E-Reverse</li>
+                    <li><b>Suspensió:</b> Doble forquilla multibraç i control d'amortiguadors Proactive</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 330 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 3s</li>
+                    <li><b>Consum:</b> 21 km/L (4,8 L/100 km; 49,4 mpgAm)</li>
+                </ul>
+                <a href="../Concesionaris.html#MclarenSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="Imgmodel"><img src="../ImagesVideos/ImgCars/Mclaren/Senna/ezgif-7c07cdfed15835.png" alt=""
+                    srcset=""></div>
+            <h1 class="Namemodel">Senna</h1>
+            <hr>
+            <div class="Infomodel">
+                <h3>Motor</h3>
+                <p>V8 a 90° M840TR Biturbo de 3994 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>335 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>2.8s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalSenna">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalSenna" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Mclaren Senna</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> McLaren Automotive</li>
+                    <li><b>Dissenyador:</b> Robert Melville</li>
+                    <li><b>Fàbriques:</b> Inglaterra: Woking</li>
+                    <li><b>Producció:</b> 500 unitats</li>
+                    <li><b>Periode:</b> 2018-present</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Plataforma:</b> Monocasc de fibra de carboni MonoCage III</li>
+                    <li><b>Carrosseria:</b> Cupè de 2 portes dièdriques</li>
+                    <li><b>Configuració:</b> Motor central-posterior longitudinal, tracció posterior</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,74m</li>
+                    <li><b>Amplada:</b> 2,15m</li>
+                    <li><b>Altura:</b> 1,19m</li>
+                    <li><b>Distancia entre eixos:</b> 2,67m</li>
+                    <li><b>Via Frontal:</b> 1,65m</li>
+                    <li><b>Via Posterior</b> 1,61m</li>
+                    <li><b>Pes:</b> 1374 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b>V8 a 90° M840TR Biturbo de 3994 cm<sup>3</sup></li>
+                    <li><b>Bateria:</b>D'ió de liti refrigerada per aigua de 7,4 kWh (27 MJ)</li>
+                    <li><b>Autonomia:</b>30 km</li>
+                    <li><b>Potencia:</b> 800 CV</li>
+                    <li><b>Par motor:</b> 800 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b>Discs ventilats carboni-ceràmics Brembo amb ABS</li>
+                    <li><b>Rodes:</b>P-Zero Trofeu R 245/35 ZR19 (Front.) 315/30 ZR20 (Post.)</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó assistida</li>
+                    <li><b>Transmissió:</b> Semi-automàtica de doble embragatge de 7 marxes</li>
+                    <li><b>Suspensió:</b> De doble forquilla amb amortidors adaptables i control de xassís actiu</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 335 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 2.8s</li>
+                    <li><b>Consum:</b> 12,4 L/100 km (8,1 km/L; 19,0 mpgAm) (Combinat)</li>
+                </ul>
+                <a href="../Concesionaris.html#MclarenSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="Imgmodel"><img src="../ImagesVideos/ImgCars/Mclaren/765LT/ezgif-7b00222434d982.png" alt=""
+                    srcset=""></div>
+            <h1 class="Namemodel">765LT</h1>
+            <hr>
+            <div class="Infomodel">
+                <h3>Motor</h3>
+                <p> V8 4.0L biturbo</p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>330 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>2.8s</p>
+            </div>
+            <a href="#" data-izimodal-open="#Modal765LT">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="Modal765LT" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Mclaren 765LT</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> McLaren Automotive</li>
+                    <li><b>Dissenyador:</b>Frank Stephenson</li>
+                    <li><b>Fàbriques:</b> Inglaterra: Woking</li>
+                    <li><b>Periode:</b> 2015-2017</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,54m</li>
+                    <li><b>Amplada:</b> 2,09m</li>
+                    <li><b>Altura:</b> 1,20m</li>
+                    <li><b>Distancia entre eixos:</b> 2,67m</li>
+                    <li><b>Pes:</b> 1358 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> 3.8 L twin-turbo M838T V8</li>
+                    <h4 class="ModalSubtitle">Mecànica</h4>
+                    <ul>
+                        <li><b>Transmissió:</b> 7-velocitats dual-clutch</li>
+                    </ul>
+                    <h4 class="ModalSubtitle">Prestacions</h4>
+                    <ul>
+                        <li><b>Velocitat máxima:</b> 330 km/h</li>
+                        <li><b>Acceleració (0-100 km/h):</b> 2.8s</li>
+                    </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>© Copyright 2024-2025 Oriol Badia</footer>
+    <script src="https://kit.fontawesome.com/008e638cf2.js" crossorigin="anonymous"></script>
+    <script src="../Plugins/AOS/AOS.js"></script>
+    <script type="text/javascript" src="../Plugins/FullPage/node_modules/fullpage.js/dist/fullpage.js"></script>
+    <script src="../Plugins/IziModal/node_modules/izimodal/js/iziModal.js"></script>
+    <script src="../Plugins/IziModal/PersonalIziModal.js"></script>
+    <script src="../Plugins/SweetAlert/sweetalert2.all.min.js"></script>
+    <script src="../Plugins/SweetAlert/PersonalSweetAlert.js"></script>
+    <script src="../Plugins/SweetAlert/sweetalert2@11.js"></script>
+    <script src="../Plugins/Swiper/swiper-bundle.min.js"></script>
+    <script src="../Plugins/Tippy/Development/popper.min.js"></script>
+    <script src="../Plugins/Tippy/Development/tippy-bundle.umd.js"></script>
+    <script src="../Plugins/Tippy/Production/core@2.js"></script>
+    <script src="../Plugins/Tippy/Production/tippy@6.js"></script>
+    <script src="../Plugins/Tippy/PersonalTippy.js"></script>
+    <script src="../Programming/index.js"></script>
+</body>
+
+</html>

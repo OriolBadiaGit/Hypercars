@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward_ios" />
+    <!--* FONTS GOOGLE *-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Saira -->
+    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Chakra | Iceberg | Tulpen -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Iceberg&family=Tulpen+One&display=swap"
+        rel="stylesheet">
+
+    <!-- Orbitron -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <!-- Orbitron -->
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+
+    <!-- Quantico -->
+    <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Audiowide -->
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+    <!-- Jura -->
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Tourney -->
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Tourney -->
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap"
+        rel="stylesheet">
+    <!--*------------------------------------------------------------------------*-->
+
+    <!--* FRAMEWORKS Y PLUGINS LINKS *-->
+    <link rel="stylesheet" href="../Frameworks/Bootstrap/css/bootstrap.min.css">
+    <script src="../Frameworks/Bootstrap/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="../Frameworks/Jquery/jquery.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../Plugins/FullPage/node_modules/fullpage.js/dist/fullpage.css" />
+    <link rel="stylesheet" href="../Plugins/IziModal/node_modules/izimodal/css/iziModal.css">
+    <script src="../Plugins/Parsley/parsley.min.js"></script>
+    <script src="../Plugins/Parsley/LanguagesParsley/ca.js"></script>
+    <link rel="stylesheet" href="../Plugins/SweetAlert/sweetalert2.min.css">
+    <link rel="stylesheet" href="../Plugins/Swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../Plugins/Tippy/Animations/scale.css">
+    <!--*------------------------------------------------------------------------*-->
+
+    <link rel="stylesheet" href="StylesMarques/StylesMarques.css">
+    <link rel="stylesheet" href="../Styles/Responsive/ResponsiveMarques.css">
+    <link rel="shortcut icon" href="../ImagesVideos/LOGOWEB.png" type="image/x-icon">
+    <title>Hypercars | Lamborghini</title>
+</head>
+
+<body id="LamborghiniBG">
+    <!--* MENÚ *-->
+    <header>
+        <nav id="NavContainer">
+
+            <ul class="MenuItem">
+                <li id="IniciMenuItem"><a href="../Index.html">Inici</a></li>
+            </ul>
+            <ul id="active" class="MenuItem">
+                <li id="MenuTriggerMarques" class="MarquesMenuItem">Marques</li>
+            </ul>
+            <img src="../ImagesVideos/LOGOWEB.png" width="35" height="35" alt="">
+            <ul class="MenuItem">
+                <li id="ConcesionariMenuItem"><a href="../Concesionaris.html">Concesionaris</a></li>
+            </ul>
+            <ul class="MenuItem">
+                <li id="MenuTriggerMes" class="MesMenuItem">Més</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="ContainerMenuToggle">
+        <div class="MenuToggle"><i class="fa-solid fa-bars"></i></div>
+    </div>
+    <div id="SubMenuMarques" hidden>
+        <a href="Ferrari.html">
+            <div class="ItemSubMenuMarques">Ferrari</div>
+        </a>
+        <a href="#">
+            <div class="ItemSubMenuMarques">Lamborghini</div>
+        </a>
+        <a href="Koeniggseg.html">
+            <div class="ItemSubMenuMarques">Koeniggseg</div>
+        </a>
+        <a href="Bugatti.html">
+            <div class="ItemSubMenuMarques">Bugatti</div>
+        </a>
+        <a href="Mclaren.html">
+            <div class="ItemSubMenuMarques">Mclaren</div>
+        </a>
+        <a href="Rimac.html">
+            <div class="ItemSubMenuMarques">Rimac</div>
+        </a>
+    </div>
+    <div id="SubMenuMes" hidden>
+        <a href="../Galeria.html">
+            <div class="ItemSubMenuMarques">Galeria</div>
+        </a>
+        <a href="../Contacte.html">
+            <div class="ItemSubMenuMarques">Contacte</div>
+        </a>
+
+    </div>
+    <!--*-------------------------*-->
+
+    <div id="banner">
+        <img id="imgBannerBugatti" src="../ImagesVideos/lamborghini-svgrepo-com.svg" width="599" height="400" alt="">
+        <h1 class="TitleCar">LAMBORGHINI</h1>
+    </div>
+    <div id="ContentCardsModelCars">
+        <div id="ContainerCard">
+            <div class="ImgCar"><img src="../ImagesVideos/ImgCars/Lamborghini/Reventon/HOR_XB1_Lambo_Reventon.png"
+                    alt="" srcset=""></div>
+            <h1 class="NameCar">Reventón</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p>V12 a 60° de 6496 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>340 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>3.4s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalReventon">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalReventon" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Lamborghini Reventón</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> Koenigsegg</li>
+                    <li><b>Fàbriques:</b> Italia, Sant'Agata Bolognese, Emilia-Romaña</li>
+                    <li><b>Producció:</b> 20 unitats</li>
+                    <li><b>Periode:</b> 2007-2009</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Cupè o roadster de 2 portes de tisora</li>
+                    <li><b>Configuració:</b> Motor central-posterior longitudinal, tracció total</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,70m</li>
+                    <li><b>Amplada:</b> 2,05m</li>
+                    <li><b>Altura:</b> 1,13m</li>
+                    <li><b>Distancia entre eixos:</b> 2,66m</li>
+                    <li><b>Via Frontal:</b> 1,63m</li>
+                    <li><b>Via Posterior</b> 1,69m</li>
+                    <li><b>Pes:</b> 1837 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V12 a 60° de 6496 cm<sup>3</sup></li>
+                    <li><b>Potencia:</b> 650-670 CV</li>
+                    <li><b>Par motor:</b> 660 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b>Discs ventilats de carboni amb servofre i ABS de 380 mm (15,0 plg) (Front.) 355 mm
+                        (14,0 plg) (Post.)</li>
+                    <li><b>Rodes:</b>P Zero 'Rosso' 245/35 R18 x 8,5 plg (45,7 x 21,6 cm) (Front.) 335/30 R18 x 3 plg
+                        (45,7 x 7,6 cm) (Post.)</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó hidràulica</li>
+                    <li><b>Transmissió:</b> Manual automatitzada E-gear de 6 velocitats</li>
+                    <li><b>Suspensió:</b> Independent MacPherson de doble forquilla, amortidors hidràulics, barra
+                        estabilitzadora i molls helicoïdals coaxials</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 340 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 3.4s</li>
+                    <li><b>Consum:</b> 21,3 L/100 km (4,7 km/L; 11,0 mpgAm)</li>
+                    <li><b>Cx:</b> 0.33</li>
+                </ul>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="ImgCar"><img src="../ImagesVideos/ImgCars/Lamborghini/Veneno/HOR_XB1_Lambo_Veneno.png" alt=""
+                    srcset=""></div>
+            <h1 class="NameCar">Veneno</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p> V12 L539 a 60° de 6498 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>355 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>2.8</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalVeneno">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalVeneno" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Lamborghini Veneno</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> Lamborghini</li>
+                    <li><b>Dissenyadors:</b> Filippo Perini i Michele Tinazzo</li>
+                    <li><b>Fàbriques:</b> Italia, Sant'Agata Bolognese, Emilia-Romaña</li>
+                    <li><b>Periode:</b> 2013-2014</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Cupè o roadster de 2 portes de tisora</li>
+                    <li><b>Configuració:</b> Motor central-posterior longitudinal, tracció integral</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 5,02m</li>
+                    <li><b>Amplada:</b> 2,07m</li>
+                    <li><b>Altura:</b> 1,16m</li>
+                    <li><b>Distancia entre eixos:</b> 2,70m</li>
+                    <li><b>Via Frontal:</b> 1,72m</li>
+                    <li><b>Via Posterior</b> 1,70m</li>
+                    <li><b>Pes:</b> 1450-1490 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V12 L539 a 60° de 6498 cm<sup>3</sup></li>
+                    <li><b>Potencia:</b> 750 CV</li>
+                    <li><b>Par motor:</b> 690 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discos ventilados carbono-cerámicos con ABS de 400 mm (15,7 plg) (Front.) 380 mm
+                        (15,0 plg) (Post.)</li>
+                    <li><b>Rodes:</b>P Zero 255/35 R20 x 9 plg (508 x 229 mm) (Front.) 335/30 R21 x 13 plg (533 x 330
+                        mm)
+                        (Post.)</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó hidràulica</li>
+                    <li><b>Transmissió:</b> Manual automatitzada ISR de 7 velocitats</li>
+                    <li><b>Suspensió:</b> Doble forquilla tipus pushrod, molls helicoïdals i amortidors amb triangles
+                        superposats</li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 355 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 2.8s</li>
+                </ul>
+                <a href="../Concesionaris.html#LamborghiniSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="ImgCar"><img
+                    src="../ImagesVideos/ImgCars/Lamborghini/Centenario/FH5_Lamborghini_Centenario_LP_770-4.png" alt=""
+                    srcset=""></div>
+            <h1 class="NameCar">Centenario</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p> V12 a 60° L539 de 6498 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>350 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>2.8s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalCentenario">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalCentenario" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Lamborghini Centenario</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> Lamborghini</li>
+                    <li><b>Fàbriques:</b> Italia, Sant'Agata Bolognese, Emilia-Romaña</li>
+                    <li><b>Producció:</b> 40 produccions</li>
+                    <li><b>Periode:</b> 2016-2017</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Cupè o roadster de 2 portes de tisora</li>
+                    <li><b>Configuració:</b> Motor central-posterior longitudinal, tracció a les quatre rodes</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,92m</li>
+                    <li><b>Amplada:</b> 2,06m</li>
+                    <li><b>Altura:</b> 1,14m</li>
+                    <li><b>Distancia entre eixos:</b> 2,70m</li>
+                    <li><b>Via Frontal:</b> 1,74m</li>
+                    <li><b>Via Posterior</b> 1,70m</li>
+                    <li><b>Pes:</b> 1520-1570 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V12 a 60° L539 de 6498 cm<sup>3</sup></li>
+                    <li><b>Potencia:</b> 770 CV</li>
+                    <li><b>Par motor:</b> 690 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discs ventilats amb ABS 400 mm (15,7 plg) (Front.) 380 mm (15,0 plg) (Post.)</li>
+                    <li><b>Rodes:</b> P Zero 255/30 ZR20 x 9 plg (50,8 x 22,9 cm) (Front.) 355/25 ZR21 x 13 plg (53,3 x
+                        33,0 cm) (Post.)</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó hidràulica</li>
+                    <li><b>Transmissió:</b> Doble embragatge ISR de 7 velocitats</li>
+                    <li><b>Suspensió:</b> Amortiguadors magnetoreològics amb sistema de vareta d'empenta tipus "pushrod"
+                    </li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 350 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 2.8s</li>
+                    <li><b>Consum:</b> 24,7 L/100 km (4 km/L; 9,5 mpgAm) (Urbá) | 10,7 L/100 km (9,3 km/L; 22,0 mpgAm)
+                        (Extraurbá) | 16 L/100 km (6,3 km/L; 14,7 mpgAm) (Mitg)</li>
+                </ul>
+                <a href="../Concesionaris.html#LamborghiniSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="ContentCardsModelCars2">
+        <div id="ContainerCard">
+            <div class="ImgCar"><img
+                    src="../ImagesVideos/ImgCars/Lamborghini/Sián FKP 37/FM23_Lamborghini_Sian_FKP_37.png" alt=""
+                    srcset=""></div>
+            <h1 class="NameCar">Sián FKP 37</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p> V12 a 60° L539 de 6498 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>355 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>2.8s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalSianFKP37">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalSianFKP37" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Lamborghini Sian FKP 37</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> Lamborghini</li>
+                    <li><b>Fàbriques:</b> Italia, Sant'Agata Bolognese, Emilia-Romaña</li>
+                    <li><b>Disseyador:</b> Mitja Borkert</li>
+                    <li><b>Producció:</b> 82 produccions</li>
+                    <li><b>Periode:</b> 2020-2022</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Cupè o roadster de 2 portes de tisora</li>
+                    <li><b>Propulsió:</b> Híbrid elèctric suau</li>
+                    <li><b>Configuració:</b> Motor central-posterior longitudinal, tracció total</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,97m</li>
+                    <li><b>Amplada:</b> 2,08m</li>
+                    <li><b>Altura:</b> 1,13m</li>
+                    <li><b>Distancia entre eixos:</b> 2,70m</li>
+                    <li><b>Via Frontal:</b> 1,72m</li>
+                    <li><b>Via Posterior</b> 1,68m</li>
+                    <li><b>Pes:</b> 1595 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V12 a 60° L539 de 6498 cm<sup>3</sup> (6,5 L; 396,5 plg<sup>3</sup>); i elèctric
+                        de 48 V i 600 A</li>
+                    <li><b>Potencia:</b> 819 CV</li>
+                    <li><b>Par motor:</b> 720 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discs ventilats carboni-ceràmics amb ABS de 400 mm (15,7 plg) (Front.) 380 mm
+                        (15,0 plg) (Post.)</li>
+                    <li><b>Rodes:</b> P Zero Corsa 255/30 ZR 20 x 9 plg (50,8 x 22,9 cm) H2 92Y (Front.) 355/25 ZR 21 x
+                        13
+                        plg (53,3 x 33,0 cm) H2 107Y</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó LDS amb relació variable</li>
+                    <li><b>Transmissió:</b> Semiautomàtica ISR de 7 velocitats</li>
+                    <li><b>Suspensió:</b> Activa magnetoreològica amb sistema push-rod, control d'estabilitat
+                        electrònic, molls i amortidors horitzontals
+                    </li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 355 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 2.8s</li>
+                    <li><b>Consum:</b> 19,2 L/100 km (5,2 km/L; 12,3 mpgAm) (Combinat)</li>
+                </ul>
+                <a href="../Concesionaris.html#LamborghiniSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="ImgCar"><img
+                    src="../ImagesVideos/ImgCars/Lamborghini/Essenza/FH5_Lamborghini_Essenza_SCV12_2020_Large.png"
+                    alt="" srcset=""></div>
+            <h1 class="NameCar">Essenza</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p> V12 L539 a 60° de 6498 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>355 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>3.3s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalEssenza">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalEssenza" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Lamborghini Essenza</h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> Lamborghini</li>
+                    <li><b>Fàbriques:</b> Italia, Sant'Agata Bolognese, Emilia-Romaña</li>
+                    <li><b>Disseyador:</b> Mitja Borkert</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Monocasc de compost de fibra de carboni, estressat a la transmissió/li>
+                    <li><b>Propulsió:</b> Híbrid elèctric suau</li>
+                    <li><b>Configuració:</b> Motor central-posterior longitudinal, tracció total</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,97m</li>
+                    <li><b>Amplada:</b> 2,08m</li>
+                    <li><b>Altura:</b> 1,13m</li>
+                    <li><b>Distancia entre eixos:</b> 2,70m</li>
+                    <li><b>Via Frontal:</b> 1,72m</li>
+                    <li><b>Via Posterior</b> 1,68m</li>
+                    <li><b>Pes:</b> 1595 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V12 a 60° L539 de 6498 cm<sup>3</sup> (6,5 L; 396,5 plg<sup>3</sup>); i elèctric
+                        de 48 V i 600 A</li>
+                    <li><b>Potencia:</b> 819 CV</li>
+                    <li><b>Par motor:</b> 720 N·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discs Brembo amb ABS</li>
+                    <li><b>Rodes:</b> P Zero Corsa 255/30 ZR 20 x 9 plg (50,8 x 22,9 cm) H2 92Y (Front.) 355/25 ZR 21 x
+                        13
+                        plg (53,3 x 33,0 cm) H2 107Y</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó LDS amb relació variable</li>
+                    <li><b>Transmissió:</b> Semiautomàtica ISR de 7 velocitats</li>
+                    <li><b>Suspensió:</b> Activa magnetoreològica amb sistema push-rod, control d'estabilitat
+                        electrònic, molls i amortidors horitzontals
+                    </li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 355 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 2.8s</li>
+                    <li><b>Consum:</b> 19,2 L/100 km (5,2 km/L; 12,3 mpgAm) (Combinat)</li>
+                </ul>
+                <a href="../Concesionaris.html#LamborghiniSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="ContainerCard">
+            <div class="ImgCar"><img
+                    src="../ImagesVideos/ImgCars/Lamborghini//Countach/FH5_Lamborghini_Countach_LPI_800-4.png" alt=""
+                    srcset=""></div>
+            <h1 class="NameCar">Countach</h1>
+            <hr>
+            <div class="InfoCar">
+                <h3>Motor</h3>
+                <p> V12 a 60° L539 de 6498 cm<sup>3</sup></p>
+                <hr>
+                <h3>Velocitat máxima</h3>
+                <p>309 km/h</p>
+                <hr>
+                <h3>Acceleració 0-100 km/h</h3>
+                <p>2.8s</p>
+            </div>
+            <a href="#" data-izimodal-open="#ModalCountach">
+                <div class="BtnMoreinfo">Més informació</div>
+            </a>
+            <div id="ModalCountach" class="modal">
+                <h1 class="ModalTitle">Fitxa tècnica Lamborghini Countach </h1>
+                <hr>
+                <h4 class="ModalSubtitle">Dades generals</h4>
+                <ul>
+                    <li><b>Fabricant:</b> Lamborghini</li>
+                    <li><b>Fàbriques:</b> Italia, Sant'Agata Bolognese, Emilia-Romaña</li>
+                    <li><b>Disseyador:</b> Marcello Gandini de Bertone</li>
+                    <li><b>Producció:</b> 1975 produccions</li>
+                    <li><b>Periode:</b> 1974-1990</li>
+                </ul>
+                <h4 class="ModalSubtitle">Configuració</h4>
+                <ul>
+                    <li><b>Tipus:</b> Superdeportiu (S)</li>
+                    <li><b>Carrosseria:</b> Berlinetta de 2 portes de tisora</li>
+                    <li><b>Propulsió:</b> Híbrid elèctric suau</li>
+                    <li><b>Configuració:</b> Motor central-posterior longitudinal, tracció posterior</li>
+                </ul>
+                <h4 class="ModalSubtitle">Dimensions</h4>
+                <ul>
+                    <li><b>Longitud:</b> 4,14m</li>
+                    <li><b>Amplada:</b> 2,00m</li>
+                    <li><b>Altura:</b> 1,07m</li>
+                    <li><b>Distancia entre eixos:</b> 2,50m</li>
+                    <li><b>Via Frontal:</b> 1,53m</li>
+                    <li><b>Via Posterior</b> 1,60m</li>
+                    <li><b>Maleter</b> 240 L</li>
+                    <li><b>Pes:</b> 1065-1490 kg</li>
+                </ul>
+                <h4 class="ModalSubtitle">Planta Matriu</h4>
+                <ul>
+                    <li><b>Motor:</b> V12 a 60° de 3929 a 5167 cm<sup>3</sup></li>
+                    <li><b>Potencia:</b> 375 a 455 CV</li>
+                    <li><b>Par motor:</b> 37-51 kg·m</li>
+                </ul>
+                <h4 class="ModalSubtitle">Mecànica</h4>
+                <ul>
+                    <li><b>Frens:</b> Discs ventilats ATE/Girling a les quatre rodes</li>
+                    <li><b>Rodes:</b> P7 Zero 225/50 R15 x 8,5 plg (38,1 x 21,6 cm) (Front.) 345/35 R15 x 12 plg (38,1 x
+                        30,5 cm) (Post.)</li>
+                    <li><b>Direcció:</b> Cremallera i pinyó</li>
+                    <li><b>Transmissió:</b> Manual ZF de 5 velocitats</li>
+                    <li><b>Suspensió:</b> Independent de doble forquilla de llarg desigual, molls helicoïdals sobre
+                        amortiguadors de tub, barra estabilitzadora i braços d'arrossegament
+                    </li>
+                </ul>
+                <h4 class="ModalSubtitle">Prestacions</h4>
+                <ul>
+                    <li><b>Velocitat máxima:</b> 309 km/h</li>
+                    <li><b>Acceleració (0-100 km/h):</b> 4.9s</li>
+                    <li><b>Consum:</b> 22,4 L/100 km (4,5 km/L; 10,5 mpgAm) (25th Aniv.)</li>
+                </ul>
+                <a href="../Concesionaris.html#LamborghiniSection">
+                    <div class="ContainerButtonSelectCar">
+                        <div class="ButtonSelectCar">Seleccionar</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>© Copyright 2024-2025 Oriol Badia</footer>
+    <script src="https://kit.fontawesome.com/008e638cf2.js" crossorigin="anonymous"></script>
+    <script src="../Plugins/AOS/AOS.js"></script>
+    <script type="text/javascript" src="../Plugins/FullPage/node_modules/fullpage.js/dist/fullpage.js"></script>
+    <script src="../Plugins/IziModal/node_modules/izimodal/js/iziModal.js" type="text/javascript"></script>
+    <script src="../Plugins/IziModal/PersonalIziModal.js"></script>
+    <script src="../Plugins/SweetAlert/sweetalert2.all.min.js"></script>
+    <script src="../Plugins/SweetAlert/PersonalSweetAlert.js"></script>
+    <script src="../Plugins/SweetAlert/sweetalert2@11.js"></script>
+    <script src="../Plugins/Swiper/swiper-bundle.min.js"></script>
+    <script src="../Plugins/Tippy/Development/popper.min.js"></script>
+    <script src="../Plugins/Tippy/Development/tippy-bundle.umd.js"></script>
+    <script src="../Plugins/Tippy/Production/core@2.js"></script>
+    <script src="../Plugins/Tippy/Production/tippy@6.js"></script>
+    <script src="../Plugins/Tippy/PersonalTippy.js"></script>
+    <script src="../Programming/index.js"></script>
+</body>
+
+</html>
